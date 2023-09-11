@@ -1,0 +1,756 @@
+<!--
+https://raw.githubusercontent.com/dadyita/QAdataset/main/embedding_finQA_viewer4.0%20(add%20Q%26A).json
+../output/embedding/embedding_finQA_viewer4.1 (key word embedding).json
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+</head>
+<body>
+<form name="mturk_form" method="post" id="mturk_form" target="_parent"
+      action="/task/4237/assignment/58/"
+      data-iframe-height="">
+
+    <input type="hidden" name="csrfmiddlewaretoken"
+           value="GZcaDdbxkQVLRqSbuhSB1NpVSzk9BAqsKpH9Y6pW4vZsIZtreP47YnicXPczcKva">
+
+
+    <!--这里开始-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.js"></script>
+    <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="https://unpkg.com/@grammarly/editor-sdk?clientId=client_MT7DFPD5JmssBLZKcrMfEW"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--    处理latex公式-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']]
+            },
+            startup: {
+                ready: () => {
+                    MathJax.startup.defaultReady();
+                    window.mathjaxReady = true;
+                }
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <div class="container">
+        <div class="get_data">
+            <div class="inputBox">
+                <input type="text" required autocomplete="off" id="doc_id">
+                <label for="doc_id" title="Doc ID" data-title="Doc ID"></label>
+            </div>
+            <button id="retrieve">Get Data</button>
+        </div>
+        <br>
+        <div class="top">
+            <div class="module">
+                <h3>Pre-Text:</h3>
+                <p id="pre_text"></p>
+                <h3>Table:</h3>
+                <div id="data_table"></div>
+                <h3>Post-Text:</h3>
+                <p id="post_text"></p>
+                <!-- 在此处插入CSV数据 -->
+            </div>
+            <div class="module">
+                <h2>Formula:</h2>
+                <div id="formula_list"></div>
+            </div>
+
+        </div>
+        <div class="qa">
+            <div class="module">
+                <h2>Example Q&A:</h2>
+                <div id="qa_list"></div>
+            </div>
+
+        </div>
+        <br>
+        <div id="bottom" class="bottom">
+            <form>
+                <div class="column_input1">
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="input_doc_id" name="input_doc_id"></textarea>
+                        <label for="input_doc_id" title="Doc ID" data-title="Doc ID"></label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="pre_text_selected"
+                                  name="pre_text_selected"></textarea>
+                        <label for="pre_text_selected" title="Selected Pre-Text" data-title="Selected Pre-Text"></label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="post_text_selected"
+                                  name="post_text_selected"></textarea>
+                        <label for="post_text_selected" title="Selected Post-Text"
+                               data-title="Selected Post-Text"></label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="table_selected" name="table_selected"></textarea>
+                        <label for="table_selected" title="Selected Table" data-title="Selected Table"></label>
+                    </div>
+                </div>
+
+                <div class="column_input2">
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="formula_selected" name="formula_selected"></textarea>
+                        <label for="formula_selected" title="Selected Formula" data-title="Selected Formula"></label>
+                    </div>
+                </div>
+
+                <div class="column_input3">
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="question" name="question"></textarea>
+                        <label for="question" title="Question" data-title="Question"></label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="answer" name="answer"></textarea>
+                        <label for="answer" title="Answer" data-title="Answer"></label>
+                    </div>
+                </div>
+
+                <div class="column_input4">
+                    <div class="inputBox">
+                        <textarea required autocomplete="off" id="solution" name="solution"></textarea>
+                        <label for="solution" title="Solution" data-title="Solution"></label>
+                    </div>
+                </div>
+                <div class="center">
+                    <!-- GPT button-->
+                    <!--
+                    <button id="GPT">GPT</button>
+                    -->
+                    <input type="submit" value="Submit">
+                    <!-- Question Category-->
+                    <!--
+                    <select required name="question_category">
+                        <option value="">Question Category</option>
+                        <option value="1">Category1</option>
+                        <option value="2">Category2</option>
+                        <option value="3">Category3</option>
+                        <option value="4">Category4</option>
+                    </select>
+                    -->
+                </div>
+                <!-- 在此处添加表单字段 -->
+            </form>
+        </div>
+    </div>
+    <style>
+        /* 每个模块的格式 */
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+
+        }
+
+        .bottom {
+            padding: 0 20px;
+        }
+
+        .top {
+            display: flex;
+            flex-direction: row;
+            resize: vertical;
+            overflow: auto;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+
+        .qa {
+            display: flex;
+            flex-direction: row;
+            resize: vertical;
+            overflow: auto;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+
+        .module {
+            flex: 1;
+            overflow: auto;
+            height: 100%;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .module2 {
+            flex: 1;
+            overflow: auto;
+            height: 100%;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .get_data, .center {
+            text-align: center;
+        }
+
+        /* 按钮格式 */
+        .bottom label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        #doc_id, #retrieve {
+            margin: 5px;
+        }
+
+        button, input[type=submit] {
+            background-color: dodgerblue;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        /* 字体、标题、正文格式 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #333;
+        }
+
+        h2, h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        /* 表格格式 */
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        .td_bg {
+            background: #FFAA00;
+        }
+
+        /* 下拉栏格式 */
+        select {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            width: 160px;
+            height: 40px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        /* inputBox实现代码 */
+        textarea {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            resize: vertical;
+        }
+
+        .inputBox {
+            box-sizing: border-box;
+            display: inline-block;
+            position: relative;
+            margin-right: 2%;
+            height: 70px;
+        }
+
+        .get_data .inputBox {
+            margin-right: 10px;
+            width: 100px;
+            height: 40px;
+        }
+
+        .get_data .inputBox input {
+            border-radius: 10px;
+        }
+
+        .column_input1 .inputBox {
+            width: 22%;
+        }
+
+        .column_input2 .inputBox, .column_input4 .inputBox {
+            width: 95%;
+        }
+
+        .column_input3 .inputBox {
+            width: 46%;
+        }
+
+        .column_input4 .inputBox {
+            height: 100px;
+        }
+
+        .column_input1, .column_input2, .column_input3, .column_input4 {
+            width: 100%;
+        }
+
+        .inputBox textarea:valid + label::before,
+        .inputBox textarea:focus + label::before {
+            line-height: 20px;
+            font-size: 12px;
+            top: -10px;
+            background: #fff;
+            padding: 0 6px;
+            left: 10px;
+        }
+
+        .inputBox input:valid + label::before,
+        .inputBox input:focus + label::before {
+            line-height: 25px;
+            font-size: 12px;
+            top: -10px;
+            background: #fff;
+            padding: 0 6px;
+            left: 10px;
+        }
+
+        .get_data .inputBox label::before {
+            line-height: 45px;
+        }
+
+        .inputBox label::before {
+            content: attr(title);
+            position: absolute;
+            top: 0;
+            left: 15px;
+            line-height: 40px;
+            font-size: 15px;
+            color: #777;
+            transition: 300ms all;
+        }
+
+        .inputBox textarea, .inputBox input {
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #222;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            resize: none;
+        }
+
+        .inputBox textarea:focus, .inputBox input:focus {
+            outline: 0;
+            border-color: dodgerblue;
+        }
+
+        .inputBox textarea:valid + label::before, .inputBox input:valid + label::before {
+            content: attr(data-title);
+        }
+
+        .inputBox textarea:focus + label::before, .inputBox input:focus + label::before {
+            color: dodgerblue;
+        }
+
+
+        /* formula分界线实现 */
+        .hr-double-arrow {
+            color: #d0d0d5;
+            border: double;
+            border-width: 3px 5px;
+            border-color: #d0d0d5 transparent;
+            height: 1px;
+            overflow: visible;
+            margin-left: 20px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .hr-double-arrow:before,
+        .hr-double-arrow:after {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-width: 0 3px 3px 0;
+            border-style: double;
+            top: -3px;
+            background: radial-gradient(2px at 1px 1px, currentColor 2px, transparent 0) no-repeat;
+        }
+
+        .hr-double-arrow:before {
+            transform: rotate(-45deg);
+            left: -20px;
+        }
+
+        .hr-double-arrow:after {
+            transform: rotate(135deg);
+            right: -20px;
+        }
+
+        .hr-mid-square {
+            border: 0;
+            color: #d0d0d5;
+            background: linear-gradient(currentColor, currentColor) no-repeat center;
+            background-size: 100% 1px;
+        }
+
+        .hr-mid-square::before {
+            content: '';
+            display: block;
+            width: .75em;
+            height: .75em;
+            transform: rotate(45deg);
+            background-color: currentColor;
+            margin: 3px auto;
+        }
+    </style>
+    <script>
+        // 修改部分html逃逸字符
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        //统计大括号
+        function balancedParentheses(t) {
+            let count = 0;
+            let result = '';
+            for (let c of t) {
+                if (c === '{')
+                    count += 1;
+                else if (c === '}')
+                    count -= 1;
+                result += c;
+                if (count === 0)
+                    break;
+            }
+            return result;
+        }
+
+        //retrieve按钮的监听，先重置监听器然后获取公式和数据
+        document.getElementById("retrieve").addEventListener("click", function (event) {
+            event.preventDefault();
+            let doc_id = $("#doc_id").val();
+            //https://raw.githubusercontent.com/dadyita/data/main/embedding_finQA_viewer4.3%20(filter%20formula).json
+            //../output/embedding/embedding_finQA_viewer4.3 (filter formula).json
+            //https://raw.gitmirror.com/dadyita/data/main/embedding_finQA_viewer4.3%20(filter%20formula).json
+            $.getJSON("../output/embedding/embedding_finQA_viewer4.3 (filter formula).json", function (data) {
+                if (doc_id in data) {
+                    let doc = data[doc_id];
+                    let list_formula = doc.formula;
+                    let table_html = "";
+
+                    //获取table html
+                    if (doc.table.length > 0) {
+                        table_html += '<table onselectstart="return false;"><tbody id="tb" class="tb">';
+                        for (let i = 0; i < doc.table.length; i++) {
+                            table_html += "<tr>";
+                            for (let j = 0; j < doc.table[i].length; j++) {
+                                table_html += "<td>" + doc.table[i][j] + "</td>";
+                            }
+                            table_html += "</tr>";
+                        }
+                        table_html += "</tbody></table>";
+                    }
+
+                    //获取formula html
+                    // category_formula = [{f:"",a:"",b:"",u:""},...]
+                    let category_formula = list_formula;
+                    let formula_html = "";
+                    formula_html += "<hr class=\"hr-double-arrow\">";
+                    category_formula.forEach(item => {
+                        ['before', 'formula', 'after', 'explanation', 'url'].forEach(headerText => {
+                            let formula = item['formula'];
+                            formula_html += "<p>";
+                            if (headerText == 'url')
+                                formula_html += "<b>URL:  </b>";
+                            if (headerText == 'explanation')
+                                formula_html += "<b>Explanation:  </b>";
+                            let text = item[headerText];
+                            let process_text = ""
+                            //text 2 url
+                            if (text.includes("https://en.wikipedia.org/wiki/")) {
+                                process_text = escapeHtml(text.replace(" ", "_"))
+                                formula_html += `<a href="${process_text}">${process_text}</a>`;
+                                // 加上checkBox
+                                formula_html += `<input type="checkbox" onchange="updateFormulaSelected(this.checked,'${formula.replace(/'/g, "\\'")}')">`;
+                            }
+                            //text 2 latex
+                            else {
+                                if (!text.includes('{\\displaystyle')) {
+                                    formula_html += `${escapeHtml(text)}`;
+                                } else {
+                                    let pattern = /{\\displaystyle/;
+                                    process_text = text
+                                    while (process_text.match(pattern)) {
+                                        let match = process_text.match(pattern);
+                                        if (match) {
+                                            let start = match.index;
+                                            let content = balancedParentheses(process_text.slice(start));
+                                            let contentWithDollar = content.replace('{\\displaystyle', '').slice(0, -1);
+                                            process_text = process_text.slice(0, start) + `$${contentWithDollar}$` + process_text.slice(start + content.length);
+                                        }
+                                    }
+                                    formula_html += `${escapeHtml(process_text)}`;
+                                }
+                            }
+                            formula_html += "</p>"
+                        });
+                        formula_html += "<hr class=\"hr-mid-square\">";
+                    });
+
+                    //获取QA html
+
+                    // 返回值
+                    $("#pre_text").html(doc.pre_text.map((item, index) => `<input type="checkbox" onchange="updatePreTextSelected(this.checked, ${index})">${item}<br>`).join(""));
+                    $("#data_table").html(table_html);
+                    $("#post_text").html(doc.post_text.map((item, index) => `<input type="checkbox" onchange="updatePostTextSelected(this.checked, ${index})">${item}<br>`).join(""));
+                    $("#formula_list").html(formula_html);
+                    $("#qa_list").html(doc.exampleQA);
+                    if (window.mathjaxReady) {
+                        MathJax.typeset();
+                    }
+                    init_listen();
+
+                    // 删除before,after,url,exampleQA
+                    doc.formula.forEach(item => {
+                        delete item.before;
+                        delete item.after;
+                        delete item.url;
+                    })
+                    delete doc.exampleQA
+                    doc.formula_list = doc.formula
+                    delete doc.formula
+                    let copy_doc = {}
+                    copy_doc.pre_text = doc.pre_text
+                    copy_doc.table = doc.table
+                    copy_doc.post_text = doc.post_text
+                    copy_doc.formula_list = doc.formula_list
+                    // 要复制到剪贴板的文本
+                    let text = JSON.stringify(copy_doc, null, 4);
+                    clearForm(doc_id, text);
+                } else {
+                    alert("Invalid document ID!");
+                }
+            });
+        });
+
+        // GPT按钮的监听
+        document.getElementById("GPT").addEventListener("click", function (event) {
+            event.preventDefault();
+            const openai_secret_key = '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';
+            const model = 'gpt-3.5-turbo';
+            const messages = [
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": "Who won the world series in 2020?"},
+                {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+                {"role": "user", "content": "Where was it played?"}
+            ];
+
+            fetch(`https://api.openai.com/v1/chat/completions`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${openai_secret_key}`
+                },
+                body: JSON.stringify({model, messages})
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById("solution").value = data.choices[0].message.content;
+                });
+        });
+
+        function clearForm(doc_id, text) {
+            text
+            document.getElementById("input_doc_id").value = doc_id;
+            //document.getElementById("question").value = text;
+            document.getElementById("question").value = "";
+            document.getElementById("answer").value = "";
+            document.getElementById("formula_selected").value = "";
+            document.getElementById("pre_text_selected").value = "";
+            document.getElementById("post_text_selected").value = "";
+            document.getElementById("table_selected").value = "";
+            document.getElementById("solution").value = "";
+        }
+
+        function updateFormulaSelected(checked, formula) {
+            let formula_selected = document.getElementById("formula_selected");
+            let selectedTexts = JSON.parse(formula_selected.value || '[]');
+            if (checked) {
+                selectedTexts.push(formula);
+            } else {
+                selectedTexts = selectedTexts.filter(text => text !== formula);
+            }
+            formula_selected.value = JSON.stringify(selectedTexts);
+        }
+
+        function updatePreTextSelected(checked, textID) {
+            let textSelected = document.getElementById("pre_text_selected");
+            let selectID = JSON.parse(textSelected.value || '[]');
+            if (checked) {
+                selectID.push(textID)
+            } else {
+                selectID = selectID.filter(item => item !== textID)
+            }
+            textSelected.value = JSON.stringify(selectID);
+        }
+
+        function updatePostTextSelected(checked, textID) {
+            let textSelected = document.getElementById("post_text_selected");
+            let selectID = JSON.parse(textSelected.value || '[]');
+            if (checked) {
+                selectID.push(textID)
+            } else {
+                selectID = selectID.filter(item => item !== textID)
+            }
+            textSelected.value = JSON.stringify(selectID);
+        }
+
+        /*****************
+         * 这段代码定义了三个函数：mouseDown、mouseMove 和 mouseUp。
+         * 这些函数用于处理鼠标事件，实现在表格中选择单元格的功能。
+         * mouseDown 函数用于处理鼠标按下事件。当用户在表格中的一个单元格上按下鼠标时，代码会记录当前单元格的位置，并根据是否按下了 Shift 键来决定是否添加或删除单元格的背景色。
+         * mouseMove 函数用于处理鼠标移动事件。当用户在表格中移动鼠标时，代码会根据鼠标的起始位置和当前位置，计算出需要选中的单元格范围，并为这些单元格添加背景色。
+         * mouseUp 函数用于处理鼠标抬起事件。当用户在表格中抬起鼠标时，代码会取消对鼠标移动事件的监听。
+         * 这段代码使用了 jQuery 库来简化 DOM 操作。
+         ******************/
+        // reference: https://blog.csdn.net/u014074697/article/details/74739128
+        function mouseDown() {
+
+            $(".tb td").mousedown(function (e) {
+                let areas;
+                e.stopPropagation();
+                mouse_begin = {
+                    x: $(this).parent().parent().find("tr").index($(this).parent()[0]),
+                    y: $(this).parent().find("td").index($(this)[0])
+                };
+                if (e.shiftKey == 1) {
+                    $(this).addClass('td_bg');
+                    mouseMove();
+                    areas = document.getElementById("table_selected");
+                    if (areas.value !== "") {
+                        areas.value += ";" + mouse_begin.x + ":" + mouse_begin.x + "," + mouse_begin.y + ":" + mouse_begin.y;
+                    } else {
+                        areas.value = "" + mouse_begin.x + ":" + mouse_begin.x + "," + mouse_begin.y + ":" + mouse_begin.y;
+                    }
+                } else {
+                    $(".tb td").removeClass('td_bg');
+                    $(this).addClass('td_bg');
+                    mouseMove();
+                    areas = document.getElementById("table_selected");
+                    areas.value = "" + mouse_begin.x + ":" + mouse_begin.x + "," + mouse_begin.y + ":" + mouse_begin.y;
+                }
+            });
+        }
+
+        function mouseMove() {
+            $(".tb td").mouseover(function (e) {
+                let areas;
+                let j;
+                let i;
+                let minY;
+                let maxY;
+                let minX;
+                let maxX;
+                if (e.shiftKey == 1) {
+                    mouse_end = {
+                        x: $(this).parent().parent().find("tr").index($(this).parent()[0]),
+                        y: $(this).parent().find("td").index($(this)[0])
+                    };
+                    // find the max and min of x and y
+                    maxX = mouse_begin.x < mouse_end.x ? mouse_end.x : mouse_begin.x;
+                    minX = mouse_begin.x < mouse_end.x ? mouse_begin.x : mouse_end.x;
+                    maxY = mouse_begin.y < mouse_end.y ? mouse_end.y : mouse_begin.y;
+                    minY = mouse_begin.y < mouse_end.y ? mouse_begin.y : mouse_end.y;
+                    for (i = minX; i <= maxX; i++) {
+                        for (j = minY; j <= maxY; j++) {
+                            add_bg(i, j);
+                        }
+                    }
+                    areas = document.getElementById("table_selected");
+                    const allAreas = areas.value.split(';');
+                    allAreas[allAreas.length - 1] = "" + minX + ":" + maxX + "," + minY + ":" + maxY;
+                    areas.value = allAreas.join(';');
+                } else {
+                    $(".tb td").removeClass('td_bg');
+                    mouse_end = {
+                        x: $(this).parent().parent().find("tr").index($(this).parent()[0]),
+                        y: $(this).parent().find("td").index($(this)[0])
+                    };
+
+                    maxX = mouse_begin.x < mouse_end.x ? mouse_end.x : mouse_begin.x;
+                    minX = mouse_begin.x < mouse_end.x ? mouse_begin.x : mouse_end.x;
+                    maxY = mouse_begin.y < mouse_end.y ? mouse_end.y : mouse_begin.y;
+                    minY = mouse_begin.y < mouse_end.y ? mouse_begin.y : mouse_end.y;
+                    for (i = minX; i <= maxX; i++) {
+                        for (j = minY; j <= maxY; j++) {
+                            add_bg(i, j);
+                        }
+                    }
+                    areas = document.getElementById("table_selected");
+                    areas.value = "" + minX + ":" + maxX + "," + minY + ":" + maxY;
+                }
+            });
+        }
+
+        function mouseUp() {
+            $(".tb td").mouseup(function () {
+                $(".tb td").unbind('mouseover');
+            });
+        }
+
+        // 初始化，添加监听器，判断在哪里点击来取消上色、清空区域
+        function init_listen() {
+            $(function () {
+                init();
+                $("body").mousedown(function (e) {
+                    if (e.target == document.getElementById("table_selected")) {
+                        $(".tb td").removeClass('td_bg');
+                    }
+                })
+            })
+        }
+
+        //add_bg 为 i 行 j 列添加背景色，为其添加 td_bg 类。
+        function add_bg(i, j) {
+            $(".tb tr").eq(i).find("td").eq(j).addClass('td_bg');
+        }
+
+        //init 函数用于初始化页面。调用 mouseDown 和 mouseUp 函数来监听鼠标事件。
+        function init() {
+            mouseDown();
+            mouseUp();
+        }
+    </script>
+    <!--这里结束-->
+
+</form>
+</body>
+</html>

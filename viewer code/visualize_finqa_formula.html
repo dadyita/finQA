@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinQA Viewer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']]
+            },
+            startup: {
+                ready: () => {
+                    MathJax.startup.defaultReady();
+                    window.mathjaxReady = true;
+                }
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function balancedParentheses(t) {
+            let count = 0;
+            let result = '';
+            for (let c of t) {
+                if (c === '{')
+                    count += 1;
+                else if (c === '}')
+                    count -= 1;
+                result += c;
+                if (count === 0)
+                    break;
+            }
+            return result;
+        }
+
+        $(document).ready(function () {
+            $("#doc_id").on("keyup", function (event) {
+                if (event.key === "Enter") {
+                    $("#submit").click();
+                }
+            });
+
+            $("#submit").click(function () {
+                let doc_id = $("#doc_id").val();
+                $.getJSON("../output/tf idf/finQA_viewer.json", function (data) {
+                    if (doc_id in data) {
+                        let doc = data[doc_id];
+                        let list_formula = [doc.formula_table, doc.formula_text, doc.formula_table_text];
+                        let list_html = ["", "", ""]
+                        for (let category = 0; category < 3; category++) {
+                            // category_formula = [{f:"",a:"",b:"",u:""},...]
+                            let category_formula = list_formula[category];
+                            let table_html = "";
+                            table_html += "<table><thead><tr>";
+                            ['Formula', 'Before', 'After', 'Url'].forEach(headerText => {
+                                table_html += "<th>" + headerText + "</th>";
+                            });
+                            table_html += "</tr></thead><tbody>";
+
+                            category_formula.forEach(item => {
+                                table_html += "<tr>";
+                                Object.values(item).forEach(text => {
+                                    let process_text = ""
+                                    //text 2 url
+                                    if (text.includes("https://en.wikipedia.org/wiki/")) {
+                                        process_text = escapeHtml(text.replace(" ", "_"))
+                                        table_html += `<td><p></p><a href="${process_text}">${process_text}</a></td>`;
+                                    }
+                                    //text 2 latex
+                                    else {
+                                        if (!text.includes('{\\displaystyle')) {
+                                            table_html += `<td><p>${escapeHtml(text)}</p></td>`;
+                                        } else {
+                                            let pattern = /{\\displaystyle/;
+                                            process_text = text
+                                            while (process_text.match(pattern)) {
+                                                let match = process_text.match(pattern);
+                                                if (match) {
+                                                    let start = match.index;
+                                                    let content = balancedParentheses(process_text.slice(start));
+                                                    let contentWithDollar = content.replace('{\\displaystyle', '').slice(0, -1);
+                                                    process_text = process_text.slice(0, start) + `$${contentWithDollar}$` + process_text.slice(start + content.length);
+                                                }
+                                            }
+                                            table_html += `<td><p>${escapeHtml(process_text)}</p></td>`;
+                                        }
+                                    }
+
+                                });
+                                table_html += "</tr>";
+                            });
+                            table_html += "</tbody></table>";
+                            list_html[category] = table_html;
+                        }
+                        $("#formula_table").html(list_html[0]);
+                        $("#formula_text").html(list_html[1]);
+                        $("#formula_table_text").html(list_html[2]);
+                        if (window.mathjaxReady) {
+                            MathJax.typeset();
+                        }
+
+                    } else {
+                        alert("Invalid document ID!");
+                    }
+                });
+            });
+        });
+    </script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        h2, h3, p {
+            font-size: 14px;
+        }
+
+        #answer div {
+            margin-bottom: 5px;
+            overflow: hidden;
+        }
+
+        #answer span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<p>Enter a document ID:</p>
+<input type="text" id="doc_id">
+<button id="submit">Submit</button>
+<hr>
+<h2 id="filename"></h2>
+<h2>Formula-Table:</h2>
+<div id="formula_table"></div>
+<h2>Formula-Text:</h2>
+<div id="formula_text"></div>
+<h2>Formula-Table-Text:</h2>
+<div id="formula_table_text"></div>
+
+</body>
+</html>

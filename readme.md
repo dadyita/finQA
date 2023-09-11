@@ -1,0 +1,11 @@
+- dataset：包含文本和表格的财报数据集
+- output：存储formula bank和添加相关formula之后的财报json
+  - add：新增的formula（economics和accounting）
+  - finance：finance formula bank
+  - ori merge and viewer：初版合并后的数据
+  - finQA_data.json：财报数据+财报相关公式
+  - finQA_viewer.json：finQA_data.json转换，用来html的呈现
+  - merge.json：合并finance和add之后的formula bank
+- spider code：爬虫代码
+- viewer code：提取财报相关公式并可视化的代码
+

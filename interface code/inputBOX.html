@@ -1,0 +1,75 @@
+<div class="container">
+
+    <div class="inputBox">
+        <input type="text" required autocomplete="off" id="username" value="">
+        <label for="username" title="扑街用户名" data-title="扑街用户名"></label>
+    </div>
+
+    <div class="inputBox">
+        <input type="password" required autocomplete="off" id="password">
+        <label for="password" title="扑街密码" data-title="扑街密码"></label>
+    </div>
+
+</div>
+<style>
+
+    body {
+        font-family: sans-serif;
+    }
+
+    .label-before,
+    .inputBox input:valid + label::before,
+    .inputBox input:focus + label::before {
+        line-height: 20px;
+        font-size: 12px;
+        top: -10px;
+        background: #fff;
+        padding: 0 6px;
+        left: 9px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 30px 10%;
+    }
+
+    .inputBox {
+        position: relative;
+        margin-bottom: 15px;
+        width: 200px;
+    }
+
+    .inputBox label::before {
+        content: attr(title);
+        position: absolute;
+        top: 0;
+        left: 15px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #777;
+        transition: 300ms all;
+    }
+
+    .inputBox input {
+        width: 100%;
+        line-height: 40px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #222;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .inputBox input:focus {
+        outline: 0;
+        border-color: blue;
+    }
+
+    .inputBox input:valid + label::before {
+        content: attr(data-title);
+    }
+
+    .inputBox input:focus + label::before {
+        color: blue;
+    }

@@ -1,0 +1,2760 @@
+{
+    "formula": "{\\displaystyle M\\times V=P\\times Q}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle money\\ flow=typical\\ price\\times volume}",
+    "count": 2
+},
+{
+    "formula": "claims = medium of exchange + other claims",
+    "count": 164
+},
+{
+    "formula": "CCC = Inventory conversion period + Receivables conversion period − Payables conversion period ",
+    "count": 58
+},
+{
+    "formula": "Debt Service = (Principal Repayment) + (Interest Payments) + (Lease Payments)",
+    "count": 68
+},
+{
+    "formula": "Value of output = value of the total sales of goods and services plus value of changes in the inventory.",
+    "count": 15
+},
+{
+    "formula": "GPI = A + B - C - D + I",
+    "count": 240
+},
+{
+    "formula": "{\\displaystyle {\\text{VPT}}={\\text{VPT}}_{\\text{prev}}+{\\text{volume}}\\times {{\\text{close}}_{\\text{today}}-{\\text{close}}_{\\text{prev}} \\over {\\text{close}}_{\\text{prev}}}}",
+    "count": 2
+},
+{
+    "formula": "Total volume (#) = Trial volume (#) + Repeat volume (#) ",
+    "count": 4
+},
+{
+    "formula": "Average Debtor collection period = Trade Receivables/Credit Sales × 365 = Average collection period in days,",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Debtor days}}={\\frac {\\mbox{Average trade debtors}}{\\mbox{Sales}}}\\times {\\mbox{Number of days in financial year}}}",
+    "count": 27
+},
+{
+    "formula": "Liquidity at Risk = Maturing Liabilities + Net Scheduled Outflows + Net Outflow of Variation Margin + Credit-Contingent Cash Outflows",
+    "count": 175
+},
+{
+    "formula": "CCC = Avg. Inventory / (COGS / 365) + Avg. Accounts receivable / (Sales / 365) − Avg. Accounts payable / (Purchases / 365)",
+    "count": 48
+},
+{
+    "formula": "Profit and Loss = TR-TC",
+    "count": 44
+},
+{
+    "formula": "{\\displaystyle OBV=OBV_{prev}-volume}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Debtor days}}={\\frac {\\mbox{Year end trade debtors}}{\\mbox{Sales}}}\\times {\\mbox{Number of days in financial year}}}",
+    "count": 35
+},
+{
+    "formula": "Average Creditor payment period = Trade Payables/Credit Purchases × 365 = Average Payment period in days,",
+    "count": 3
+},
+{
+    "formula": "Throughput (T)",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle OBV=OBV_{prev}+volume}",
+    "count": 1
+},
+{
+    "formula": "Days' sales in receivables = 365 / Receivable Turnover Ratio",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle {\\text{Income}}+{\\text{Capital Gain}}={\\text{Total Return}}}",
+    "count": 72
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Current Dividend Yield}}={\\frac {{\\mbox{Dividend payout ratio}}\\times {\\mbox{Most Recent Full-Year earnings per share}}}{\\mbox{Current Share Price}}}}",
+    "count": 49
+},
+{
+    "formula": "{\\displaystyle TSR={(Price_{end}-Price_{begin}+Dividends)}/{Price_{begin}}}",
+    "count": 43
+},
+{
+    "formula": "TCE = total equity – intangible assets – goodwill – preferred stock",
+    "count": 167
+},
+{
+    "formula": "{\\displaystyle P={\\frac {D_{1}}{r-g}}}",
+    "count": 50
+},
+{
+    "formula": "{\\displaystyle {\\text{dividend yield ratio}}={\\frac {\\text{dividend per share}}{\\text{market value per share}}}\\times 100\\%}",
+    "count": 36
+},
+{
+    "formula": "Continuing operations formula Earnings per share = (income from continuing operations − preferred dividends) / weighted average common shares",
+    "count": 150
+},
+{
+    "formula": "{\\displaystyle {\\mathit {T}}={\\frac {{\\mathit {C}}F}{\\mathit {P}}}+{\\boldsymbol {\\Phi }}g+{\\frac {\\Delta PB}{PB}}{\\mathit {(}}1+g)}",
+    "count": 30
+},
+{
+    "formula": "{\\displaystyle K_{cs}={\\frac {{\\text{Dividend}}_{\\text{Payment/Share}}(1+{\\text{Growth}})}{{\\text{Price}}_{\\text{Market}}}}+{\\text{Growth}}_{\\text{rate}}} .",
+    "count": 41
+},
+{
+    "formula": "{\\displaystyle P=({\\frac {E*G}{K^{2}}})+({\\frac {D}{K}})}",
+    "count": 81
+},
+{
+    "formula": "Basic formula Earnings per share = (profit − preferred dividends) / weighted average common shares",
+    "count": 129
+},
+{
+    "formula": "{\\displaystyle {\\mathit {T}}={\\mathit {g}}+{\\frac {{\\mathit {R}}OE-{\\mathit {g}}}{1}}=ROE}",
+    "count": 22
+},
+{
+    "formula": "earnings yield = dividend yield · dividend cover",
+    "count": 41
+},
+{
+    "formula": "{\\displaystyle P_{0}={\\frac {D_{1}}{r}}} .",
+    "count": 64
+},
+{
+    "formula": "{\\displaystyle {\\mathit {T}}={\\mathit {g}}+{\\frac {{\\mathit {R}}OE-{\\mathit {g}}}{{\\mathit {P}}B}}+{\\frac {\\Delta PB}{PB}}{\\mathit {(}}1+g)}",
+    "count": 23
+},
+{
+    "formula": "CFPS = (net income + Depreciation + Amortization)/ Common Shares Outstanding",
+    "count": 78
+},
+{
+    "formula": "{\\displaystyle {\\text{Earnings per share}}={\\frac {{\\text{Net income}}-{\\text{Preferred stock dividends}}}{\\text{Weighted average of common stock shares outstanding}}}}",
+    "count": 110
+},
+{
+    "formula": "{\\displaystyle r={\\frac {D_{1}}{P_{0}}}+g.}",
+    "count": 38
+},
+{
+    "formula": "Payout Ratio = (Dividends - Preferred Stock Dividends)/Net Income",
+    "count": 25
+},
+{
+    "formula": "{\\displaystyle R={\\frac {V_{f}-V_{i}}{V_{i}}}}",
+    "count": 5
+},
+{
+    "formula": "FCFF = After tax operating income + Noncash charges (such as D&A) - CAPEX - Working capital expenditures = Free cash flow to firm (FCFF)",
+    "count": 75
+},
+{
+    "formula": "FCFE = Net income + Noncash charges (such as D&A) - CAPEX - Change in non-cash working capital + Net borrowing = Free cash flow to equity (FCFE)",
+    "count": 56
+},
+{
+    "formula": "NII = (interest payments on assets) − (interest payments on liabilities)",
+    "count": 200
+},
+{
+    "formula": "Net Free Cash Flow = Operation Cash flow – Capital Expenses to keep current level of operation – dividends – Current Portion of long term debt – Depreciation",
+    "count": 78
+},
+{
+    "formula": "OCF = incremental earnings+depreciation=(earning before interest and tax−tax)+depreciation",
+    "count": 91
+},
+{
+    "formula": "Free Cash Flows=Net Operating Profit After Tax (NOPAT)+ Noncash items in EBIT – Working Capital changes – Capital Expenditures and Other Operating Investments",
+    "count": 80
+},
+{
+    "formula": "net liquid assets = liquid assets - volatile liabilities",
+    "count": 97
+},
+{
+    "formula": "GCI (Gross cash invested) = (Gross tangible and intangible assets before depreciation or write-offs) + (investments in associates) + (working capital)",
+    "count": 94
+},
+{
+    "formula": " earnings before interest and taxes (EBIT) = Sales (revenue) – cost of goods sold– selling, general, administrative expenses (SGA)– depreciation/ amortization",
+    "count": 184
+},
+{
+    "formula": "Shareholders' Equity = Assets − Liabilities ",
+    "count": 81
+},
+{
+    "formula": "{\\displaystyle CD=AB/(R+S)\\times S}",
+    "count": 20
+},
+{
+    "formula": "Assets = Liabilities + Contributed Capital + Revenue − Expenses − Dividends",
+    "count": 167
+},
+{
+    "formula": "Free Cash Flow=Net Profit + Interest expense  - Net Capital Expenditure (CAPEX) - Net changes in Working Capital  - Tax shield on Interest Expense ",
+    "count": 133
+},
+{
+    "formula": "{\\displaystyle CD=S/(R+S)\\times AB}",
+    "count": 15
+},
+{
+    "formula": "Net profit = net sales – cost of goods sold – operating expense – taxes – interest",
+    "count": 134
+},
+{
+    "formula": "CE = Shareholders’ Equity + Net Financial Debt",
+    "count": 171
+},
+{
+    "formula": "Net Operating IncomeNOI = (Net income) − (operating expenses) ",
+    "count": 53
+},
+{
+    "formula": "Operating expense (OE)",
+    "count": 71
+},
+{
+    "formula": "Operating profit = gross profit – total operating expenses ",
+    "count": 47
+},
+{
+    "formula": "Net Income = Revenue − Expenses",
+    "count": 80
+},
+{
+    "formula": "Operating profit = gross profit − overheads and other indirect costs",
+    "count": 40
+},
+{
+    "formula": "Adj. EBITDA = (Gross Operating Revenue) − (Operating Expenses)",
+    "count": 42
+},
+{
+    "formula": "{\\displaystyle {\\text{EBITDA}}\\ (\\$)={\\text{Net profit}}\\ (\\$)+{\\text{Interest Payments}}\\ (\\$)+{\\text{Taxes Incurred}}\\ (\\$)+{\\text{Depreciation and Amortization Charges}}\\ (\\$)}",
+    "count": 175
+},
+{
+    "formula": "profit/loss = earnings before interest and taxes (EBIT) – interest and tax expenses ",
+    "count": 89
+},
+{
+    "formula": "Total factor income = employee compensation + corporate profits + proprietor's income + rental income + net interest",
+    "count": 84
+},
+{
+    "formula": "Normal profit = Revenues – (Implicit costs + Explicit costs)",
+    "count": 65
+},
+{
+    "formula": "NOPAT = (Net Income - after-tax Non-operating Gains + after-tax Non-operating Losses + after-tax Interest Expense)",
+    "count": 62
+},
+{
+    "formula": "{\\displaystyle {\\text{Net profit}}\\ (\\$)={\\text{Sales revenue}}\\ (\\$)-{\\text{Total costs}}\\ (\\$)}",
+    "count": 51
+},
+{
+    "formula": "EVA = net operating profit after taxes – a capital charge ",
+    "count": 58
+},
+{
+    "formula": "Profit = earned premium + investment income – incurred loss – underwriting expenses.",
+    "count": 54
+},
+{
+    "formula": "OCF = (revenue − cost of good sold − operating expense − depreciation)* (1−tax rate)+depreciation",
+    "count": 64
+},
+{
+    "formula": "Profit and Loss = C*X-TFC",
+    "count": 70
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Operating liabilities}}={\\mbox{Accounts Payable}}+{\\mbox{Accrued/deferred Operating Expenses}}+{\\mbox{Reserve for Operating Expenses}}+{\\mbox{Accrued/deferred taxes on operating profit}}+{\\mbox{Reserve for taxes on operating profit}}}",
+    "count": 116
+},
+{
+    "formula": "OCF = (Revenue − cost of good sold − operating expense)* (1−tax rate)+ depreciation* (tax rate)",
+    "count": 42
+},
+{
+    "formula": "{\\displaystyle {\\text{CFROI}}={\\frac {{\\text{Gross cash flow}}-{\\text{Economic depreciation}}}{\\text{Gross investment}}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{Gross Profit}}={\\text{Revenue}}-({\\text{Direct materials}}+{\\text{Direct labor}}+{\\text{Factory overhead}})}",
+    "count": 26
+},
+{
+    "formula": "OCF = earning before interest and tax*(1−tax rate)+ depreciation",
+    "count": 51
+},
+{
+    "formula": "Cash Break Even Ratio = (Operating Expenses + Mortgage Payment - Reserves for Replacement) / Potential Gross Income",
+    "count": 70
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Operating assets}}={\\mbox{total assets}}-{\\mbox{Excess cash and cash equivalents}}-{\\mbox{Financial assets and investments}}}",
+    "count": 69
+},
+{
+    "formula": "ROCE = Earning Before Interest and Tax (EBIT)/Capital Employed (Expressed as a %)",
+    "count": 34
+},
+{
+    "formula": "Net Operating Profit After Tax (NOPAT)=EBIT – Taxes on EBIT ",
+    "count": 48
+},
+{
+    "formula": "DPI = PI (personal income) - personal tax (income tax) - non tax payment (fine)",
+    "count": 18
+},
+{
+    "formula": "Earnings Yield = (Earnings Before Interest & Taxes + Depreciation – CapEx) / Enterprise Value (Market Value + Debt – Cash)",
+    "count": 76
+},
+{
+    "formula": "NOPAT = Operating profit x (1 - Tax Rate)",
+    "count": 25
+},
+{
+    "formula": "{\\displaystyle e ={\\frac {p\\times i}{p\\times (1-i)}} }",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle {\\text{ROIC}}={\\frac {\\text{NOPAT}}{{\\text{total assets}}-{\\text{current liability}}}}} ",
+    "count": 9
+},
+{
+    "formula": "Times-Interest-Earned = EBITDA/Interest Expense",
+    "count": 58
+},
+{
+    "formula": "{\\displaystyle {\\text{ROE}}={\\frac {\\text{Net Income}}{\\text{Pretax Income}}}\\times {\\frac {\\text{Pretax Income}}{\\text{EBIT}}}\\times {\\frac {\\text{EBIT}}{\\text{Revenue}}}\\times {\\frac {\\text{Revenue}}{\\text{Average Total Assets}}}\\times {\\frac {\\text{Average Total Assets}}{\\text{Average Total Equity}}}}",
+    "count": 19
+},
+{
+    "formula": "EVA = NOPAT – (c × capital)",
+    "count": 27
+},
+{
+    "formula": "{\\displaystyle {\\mbox{CAR}}={\\cfrac {\\mbox{Tier 1 capital + Tier 2 capital}}{\\mbox{Risk weighted assets}}}}",
+    "count": 45
+},
+{
+    "formula": "{\\displaystyle {\\text{Working Capital}}={\\text{Current Assets}}-{\\text{Current Liabilities}}}",
+    "count": 50
+},
+{
+    "formula": "Debt-To-Capital Ratio = Debt / (Shareholder's Equity + Debt)",
+    "count": 56
+},
+{
+    "formula": "capital gearing ratio = dollar amount of capital bearing risk/ dollar amount of capital not bearing risk",
+    "count": 10
+},
+{
+    "formula": "debt-to-capitalization ratio = dollar amount of debt/ dollar amount of total capitalization",
+    "count": 50
+},
+{
+    "formula": "Determine company's return on capital = EBIT / (net fixed assets + working capital).",
+    "count": 47
+},
+{
+    "formula": "Leverage ratio = (total assets – intangible assets – goodwill) / TCE",
+    "count": 65
+},
+{
+    "formula": "D/A = debt / (debt + equity + (non-financial liabilities))",
+    "count": 89
+},
+{
+    "formula": "Wealth = cash balances + government bonds + housing equity + stocks + other assets - debt",
+    "count": 159
+},
+{
+    "formula": "Market Capitalization = Net Working capital + Net Fixed assets + Routine Intangible assets + IP",
+    "count": 93
+},
+{
+    "formula": "D/C = D / (D+E) ",
+    "count": 45
+},
+{
+    "formula": "{\\displaystyle {\\mbox{RAROC}}={{\\mbox{Expected return}} \\over {\\mbox{Economic capital}}}}",
+    "count": 7
+},
+{
+    "formula": "AQI = [1 - (Current Assetst + PP&Et + Securitiest) / Total Assetst] / [1 - ((Current Assetst-1 + PP&Et-1 + Securitiest-1) / Total Assetst-1)]",
+    "count": 54
+},
+{
+    "formula": "{\\displaystyle {\\text{EVA}}=({\\text{ROIC}}-{\\text{WACC}})\\cdot ({\\text{total assets}}-{\\text{current liability}})}",
+    "count": 18
+},
+{
+    "formula": "Capital gearing ratio = (Debentures + Preference share capital) : (shareholders' funds)",
+    "count": 38
+},
+{
+    "formula": "{\\displaystyle k_{e}=R_{f}+\\beta (R_{m}-R_{f})+SCRP+CSRP}",
+    "count": 30
+},
+{
+    "formula": "{\\displaystyle {\\mbox{RAROC}}={{\\mbox{Expected return}} \\over {\\mbox{Value at risk}}}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle {\\text{WACC}}={\\frac {\\sum _{i=1}^{N}r_{i}\\cdot MV_{i}}{\\sum _{i=1}^{N}MV_{i}}}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle \\textstyle {\\mbox{Financial result }}={\\mbox{ Interest income}}-{\\mbox{ Interest expense}}\\pm {\\mbox{ Write-downs/write-ups for financial assets}}\\pm {\\mbox{ Write-downs/write-ups for marketable securities}}+{\\mbox{ Other financial income and expenses}}}",
+    "count": 68
+},
+{
+    "formula": "{\\displaystyle {\\text{CFROI}}={\\frac {\\text{Gross cash flow}}{\\text{Gross investment}}}}",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle {\\text{MIRR}}={\\sqrt[{n}]{\\frac {FV({\\text{positive cash flows, reinvestment rate}})}{-PV({\\text{negative cash flows, finance rate}})}}}-1} ,",
+    "count": 5
+},
+{
+    "formula": "net money assets = claims – liabilities",
+    "count": 84
+},
+{
+    "formula": "Solvency ratio = (net income + depreciation) / liabilities",
+    "count": 53
+},
+{
+    "formula": "{\\displaystyle {\\text{CFROI}}={\\frac {\\text{Cash flow}}{\\text{Market recapitalization}}}}",
+    "count": 58
+},
+{
+    "formula": "net worth = tangible assets + claims – liabilities",
+    "count": 85
+},
+{
+    "formula": "{\\displaystyle CRF={\\frac {i(1+i)^{n}}{(1+i)^{n}-1}}}",
+    "count": 14
+},
+{
+    "formula": "{\\displaystyle notional\\ profit=work\\ in\\ progress-cost\\ incurred\\ to\\ date}",
+    "count": 15
+},
+{
+    "formula": "Value of Unlevered Firm=Value of Unlevered Assets + Excess cash and other assets ",
+    "count": 87
+},
+{
+    "formula": "ΔNet money assets=Revenues – Expenses ",
+    "count": 72
+},
+{
+    "formula": "{\\displaystyle i_{n}=i_{n}^{*}+r_{p}+l_{p}\\,\\!}",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Capitalization Rate}}={\\frac {{\\mbox{risk free rate}}+{\\mbox{historical real estate risk premium}}-{\\mbox{expected net operating income growth rate}}}{1-{\\frac {\\mbox{annual capital expenditures}}{\\mbox{net operating income}}}}}}",
+    "count": 3
+},
+{
+    "formula": "Paid-in Capital (a.k.a. Contributed Capital) = A + B :",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle {\\text{Assets}}={\\text{Stockholder Equity}}+{\\text{Liabilities}}}",
+    "count": 148
+},
+{
+    "formula": "Investment (I)",
+    "count": 202
+},
+{
+    "formula": "Equity Value = Market capitalization + Amount that in-the-money stock options are in the money + Value of equity issued from in-the-money convertible securities - Proceeds from the conversion of convertible securities",
+    "count": 93
+},
+{
+    "formula": "K = k × Y",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle A=L+E}",
+    "count": 100
+},
+{
+    "formula": "Equity Value = Market capitalization + fair value of all stock options (in the money and out of the money), calculated using the Black–Scholes formula or a similar method + Value of convertible securities in excess of what the same securities would be valued without the conversion attribute",
+    "count": 39
+},
+{
+    "formula": "Assets = Liabilities + Equity (in financial accounting, the term equity, not Capital , is used)",
+    "count": 136
+},
+{
+    "formula": "Enterprise value = common equity at market value (this line item is also known as \"market cap\") + debt at market value (here debt refers to interest-bearing liabilities, both long-term and short-term) + minority interest at market value, if any + preferred equity at market value + unfunded pension liabilities and other debt-deemed provisions – value of associate companies – cash and cash equivalents.",
+    "count": 103
+},
+{
+    "formula": "Owner's equity = Contributed Capital + Retained Earnings",
+    "count": 34
+},
+{
+    "formula": "Bank assets = Bank liabilities + Owners' equity",
+    "count": 127
+},
+{
+    "formula": "SLR rate = (liquid assets / (demand + time liabilities)) × 100%",
+    "count": 63
+},
+{
+    "formula": "{\\displaystyle Capital(i,t_{Exit})=max[Capital_{VR}(i,t_{Exit}),Capital_{OR}(i,t_{Exit})]}",
+    "count": 9
+},
+{
+    "formula": "TATA = (Income from Continuing Operationst - Cash Flows from Operationst) / Total Assetst",
+    "count": 175
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Impairment Cost}}={{\\mbox{Recoverable Amount}}-{\\mbox{Carrying Value}}}}",
+    "count": 126
+},
+{
+    "formula": "{\\displaystyle TIR=I\\times RR}",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle Capital_{VR}(i,t_{Exit})=max[Loss(i,t_{Exit})-Capital_{OR}(i,t_{Exit}),0]}",
+    "count": 14
+},
+{
+    "formula": "{\\displaystyle LCR={\\frac {\\mbox{High quality liquid assets}}{\\mbox{Total net liquidity outflows over 30 days}}}\\geq 100\\%}",
+    "count": 22
+},
+{
+    "formula": "{\\displaystyle {\\text{Quick Ratio}}={\\frac {{\\text{Cash and Cash Equivalent}}+{\\text{Marketable Securities}}+{\\text{Accounts Receivable}}}{\\text{Current Liabilities}}}}",
+    "count": 29
+},
+{
+    "formula": "{\\displaystyle {\\text{Gross margin percentage}}={\\frac {{\\text{Revenue}}-{\\text{COGS}}}{\\text{Revenue}}}\\times 100\\%}",
+    "count": 16
+},
+{
+    "formula": "GMI = [(Salest-1 - COGSt-1) / Salest-1] / [(Salest - COGSt) / Salest]",
+    "count": 25
+},
+{
+    "formula": "Gross profit = sales revenue − cost of sales and other direct costs",
+    "count": 37
+},
+{
+    "formula": "{\\displaystyle {\\text{Net Sales}}={\\text{Revenue}}-{\\text{Cost of Sales Returns}}-{\\text{Allowances and Discounts}}}",
+    "count": 42
+},
+{
+    "formula": "{\\displaystyle {\\frac {\\text{Operating Income}}{\\text{Sales}}}={\\frac {{\\text{Unit Price}}-{\\text{Unit Variable Cost}}}{\\text{Unit Price}}}}",
+    "count": 26
+},
+{
+    "formula": "Operating leverage=(Revenue-Variable Cost)/(Revenue-Variable Cost-Fixed Cost)",
+    "count": 45
+},
+{
+    "formula": "{\\displaystyle {\\text{Return on sales}}\\ (\\%)={\\frac {{\\text{Net profit}}\\ (\\$)}{{\\text{Sales revenue}}\\ (\\$)}}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {\\text{Profit Margin}}={{100\\cdot ({\\text{Sales}}-{\\text{Total Expenses}})} \\over {\\text{Revenue}}}}",
+    "count": 11
+},
+{
+    "formula": "Profit and Loss = P*X-(TFC+TVC)",
+    "count": 47
+},
+{
+    "formula": "{\\displaystyle {\\text{Gross Profit Margin}}={100\\cdot {\\text{Gross Profit}} \\over {\\text{Net Sales}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{gross margin}}={\\frac {\\text{markup}}{1+{\\text{markup}}}}}",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle {\\text{Assets}}={\\text{Liabilities}}+{\\text{Equity}}} ",
+    "count": 60
+},
+{
+    "formula": "Asset = Liability + Owner's equity",
+    "count": 71
+},
+{
+    "formula": "{\\displaystyle a=oe+l}",
+    "count": 28
+},
+{
+    "formula": "CMP of an existing asset = CMP of comparable new asset × remaining useful life of asset ÷ original useful life of asset.",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle FCFE=NI+D\\&A-Capex-\\Delta WC+Net\\ Borrowing}",
+    "count": 98
+},
+{
+    "formula": "{\\displaystyle FCFE=NI-[(1-b)(Capex-D\\&A)+(1-b)(\\Delta WC)]}",
+    "count": 40
+},
+{
+    "formula": "Net Capital Expenditure (CAPEX) = Capex - Depreciation & Amortization . ",
+    "count": 47
+},
+{
+    "formula": "Equity Charge = Equity Capital x Cost of Equity,",
+    "count": 22
+},
+{
+    "formula": "NNI* = C + I + G + NX + Net Foreign Factor Income – Indirect Taxes – manufactured capital depreciation – Natural Resource Depletion",
+    "count": 58
+},
+{
+    "formula": "NNI = C + I + G + (NX) + net foreign factor income – indirect taxes – manufactured capital depreciation",
+    "count": 40
+},
+{
+    "formula": "I = C + Δ NW",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle UPI={Return-RiskFreeReturn \\over ulcer\\,index}}",
+    "count": 22
+},
+{
+    "formula": "NDP at factor cost = compensation of employees + net interest + rental & royalty income + profit of incorporated and unincorporated NDP at factor cost",
+    "count": 47
+},
+{
+    "formula": "CE = Fixed Assets + Net Working Capital",
+    "count": 81
+},
+{
+    "formula": "SGAI = (SG&A Expenset / Salest) / (SG&A Expenset-1 / Salest-1)",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle FCFE=FCFF+Net\\ Borrowing-Interest*(1-t)}",
+    "count": 45
+},
+{
+    "formula": "{\\displaystyle {\\text{Discount yield}}={\\frac {\\text{Charge to delay payment for 1 year}}{\\text{debt liability}}}}",
+    "count": 18
+},
+{
+    "formula": "DPB = Year before DPB occurs + Cumulative Discounted Cash flow in year before recovery ÷ Discounted cash flow in year after recovery",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle R=(i+r_{p}+m+d)P_{H}}",
+    "count": 27
+},
+{
+    "formula": "{\\displaystyle W=c+L} ,",
+    "count": 6
+},
+{
+    "formula": "Value of Levered Firm – Value of Debt =Value of Levered Equity or APV",
+    "count": 98
+},
+{
+    "formula": "{\\displaystyle VP=V+S} ",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle ILF(L)={\\dfrac {Expected\\ indemnity\\ cost(L)}{Expected\\ indemnity\\ cost(B)}} }",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle p_{i} =E_{i}}",
+    "count": 4
+},
+{
+    "formula": "GVA= GDP + subsidies on products – taxes on products",
+    "count": 8
+},
+{
+    "formula": "Inventory investment = production – sales",
+    "count": 8
+},
+{
+    "formula": "Revenue surplus of one group = Expense surplus of the complementary group",
+    "count": 59
+},
+{
+    "formula": "DSRI = (Net Receivablest / Salest) / (Net Receivablest-1 / Salest-1)",
+    "count": 16
+},
+{
+    "formula": "Sales = Sales for the year - Returns in (Goods that were returned to the entity during the course of the year)",
+    "count": 6
+},
+{
+    "formula": "Project profitability = the difference between the revenue generated by a project and the cost of delivering the work",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle {\\text{throughput}}={\\text{sales}}-{\\text{material costs}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\mbox{annual depreciation expense}}={{\\mbox{cost of fixed asset}}-{\\mbox{residual value}} \\over {\\mbox{useful life of asset}}(years)}}",
+    "count": 29
+},
+{
+    "formula": "{\\displaystyle FMV\\,=\\,{VBAB*TAB_{factor}}}",
+    "count": 45
+},
+{
+    "formula": "Depreciation = value at the beginning of the year (opening balance) + purchases in the year - value at the end of the year (closing balance)",
+    "count": 20
+},
+{
+    "formula": "{\\displaystyle {\\mbox{annual depreciation expense}}={{\\mbox{cost of fixed asset}}-{\\mbox{residual value}} \\over {\\mbox{estimated total production}}}\\times {\\mbox{actual production}}}",
+    "count": 22
+},
+{
+    "formula": "The market value of a firm = net book value of the firm’s net assets + present value of future abnormal earnings ( goodwill ).",
+    "count": 61
+},
+{
+    "formula": "book value = original cost − accumulated depreciation",
+    "count": 23
+},
+{
+    "formula": "{\\displaystyle {\\cfrac {\\text{gain or loss}}{\\text{average capital}}}={\\cfrac {B-A-F}{A+\\sum _{i=1}^{n}W_{i}\\times F_{i}}}}",
+    "count": 10
+},
+{
+    "formula": "Cost of sales = Goods available for sale - Closing inventory",
+    "count": 17
+},
+{
+    "formula": "Booked (Invoiced) Inventory = Beginning Inventory + Purchases − (Sales + Adjustments)",
+    "count": 1
+},
+{
+    "formula": "Tax on recapture = (BookValue – BasisValue) x TR Capital gains tax = (BasisValue – Salvage Value) x TR/2 Disposal tax effect (DTE) = (tax on recapture + Capital gains tax)",
+    "count": 25
+},
+{
+    "formula": "Net profit = Pre-tax profit − tax",
+    "count": 20
+},
+{
+    "formula": "Value of Levered Firm=Value of Unlevered Firm + Present Value of Debt's Periodic Interest Tax Shield discounted by Cost of Debt Financing % ",
+    "count": 52
+},
+{
+    "formula": "APV(Adjusted present value) = Unlevered NPV of Free Cash Flows and assumed Terminal Value + NPV of Interest Tax Shield and assumed Terminal Value:",
+    "count": 21
+},
+{
+    "formula": "{\\displaystyle I=cN-P}",
+    "count": 37
+},
+{
+    "formula": "Capitalisation Value (Perpetual Firm) = (Debt × Interest Rate x Tax Rate) ÷ Cost of Debt",
+    "count": 17
+},
+{
+    "formula": "Mortgage Loan = Loan Principal + Expenses (Taxes & fees) + interest",
+    "count": 44
+},
+{
+    "formula": "LVGI = [(Current Liabilitiest + Total Long Term Debtt) / Total Assetst] / [(Current Liabilitiest-1 + Total Long Term Debtt-1) / Total Assetst-1]",
+    "count": 40
+},
+{
+    "formula": "Times-Interest-Earned = EBIT /Interest Expense",
+    "count": 82
+},
+{
+    "formula": "Sonkin ratio = (market capitalization + debt – cash) / (earnings before interest and taxes – tax)",
+    "count": 40
+},
+{
+    "formula": "DAC amortization rate = [present value of DAE + accumulated value of DAC]/[present value of estimated gross profits (EGPs) + accumulated value of actual gross profits (AGPs)]",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle CCA=tdUCC}",
+    "count": 25
+},
+{
+    "formula": "{\\displaystyle \\mathrm {DAOE} ={\\frac {{\\mbox{NOPAT}}(t)-{\\mbox{WACC}}\\times {\\mbox{NOA}}(t-1)}{\\mbox{WACC}}}+{\\mbox{NOA}}-{\\mbox{BVD}}}",
+    "count": 9
+},
+{
+    "formula": "depreciable base = cost − salvage value",
+    "count": 6
+},
+{
+    "formula": "The disposal tax effect (DTE) = (BookValue – SalvageValue) x TR.",
+    "count": 14
+},
+{
+    "formula": "PI = Undistributed profits UP (received by earnings) - Corporate tax CT (received by government) - Net interest households payment NIH (payment made from households) + Transfer payment from households TPH (received by households)",
+    "count": 41
+},
+{
+    "formula": "Efficiency = input/ output",
+    "count": 3
+},
+{
+    "formula": "Retained earnings = opening retained earnings + current year net profit from p&l a/c - dividends paid in current year",
+    "count": 14
+},
+{
+    "formula": "Retention Ratio = 1 − Dividend Payout Ratio ",
+    "count": 10
+},
+{
+    "formula": "Augmented Payout Ratio = (Dividends + Buybacks)/ Net Income for the same period",
+    "count": 32
+},
+{
+    "formula": "{\\displaystyle \\mathrm {DCL} ={\\frac {\\mathrm {EBIT} +{\\text{Fixed Costs}}}{\\mathrm {EBIT} -{\\text{Total Interest Expense}}}}}",
+    "count": 3
+},
+{
+    "formula": "DSCR = Net Operating Income / Debt Service",
+    "count": 13
+},
+{
+    "formula": "D/C = (D/E) / (1 + D/E)",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle \\mathrm {DFL} ={\\frac {\\mathrm {EBIT} }{\\mathrm {EBIT} -{\\text{Total Interest Expense}}}}}",
+    "count": 3
+},
+{
+    "formula": "D/E = D / (A − D) = (A − E) / E ",
+    "count": 5
+},
+{
+    "formula": "Determine company's earnings yield = EBIT / enterprise value.",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle NNP=GNP-Depreciation}",
+    "count": 7
+},
+{
+    "formula": "Jaws ratio = (Income Growth Rate) − (Expense Growth Rate) . ",
+    "count": 6
+},
+{
+    "formula": "Ke = D1/P0(1-F) + g; ",
+    "count": 20
+},
+{
+    "formula": "Cost of internal equity = [(next year's dividend per share/(current market price per share - flotation costs )] + growth rate of dividends)]",
+    "count": 29
+},
+{
+    "formula": "P/E = Current stock price / ( Net profit / Weighted average number of shares)",
+    "count": 55
+},
+{
+    "formula": "{\\displaystyle {\\text{P/E}}={\\frac {\\text{Share Price}}{\\text{Earnings per Share}}}}",
+    "count": 18
+},
+{
+    "formula": "{\\displaystyle {\\rm {{Shares\\ issued}={\\rm {{Shares\\ outstanding}+{\\rm {Treasury\\ shares}}}}}}}",
+    "count": 39
+},
+{
+    "formula": "{\\displaystyle {\\text{EVA}}={\\text{NOPAT}}-{\\text{WACC}}\\cdot ({\\text{total assets}}-{\\text{current liability}})}",
+    "count": 16
+},
+{
+    "formula": "{\\displaystyle Fixed\\ Asset\\ Turnover={\\frac {Net\\ sales}{Average\\ net\\ fixed\\ assets}}}",
+    "count": 7
+},
+{
+    "formula": "Debt ratio = Total Liabilities / Total Assets",
+    "count": 21
+},
+{
+    "formula": "Today's SMI reading = yesterday's SMI – opening gain or loss + last hour change",
+    "count": 14
+},
+{
+    "formula": "ADX = 100 times the smoothed moving average of the absolute value of (+DI − -DI) divided by (+DI + -DI)",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{Profitability index}}=1+{\\frac {\\text{NPV}}{\\text{Initial investment}}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{ARR}}={\\frac {\\text{Average return during period}}{\\text{Average investment}}}}",
+    "count": 23
+},
+{
+    "formula": "{\\displaystyle TSI(c_{0},r,s)=100{\\frac {EMA(EMA(m,r),s)}{EMA(EMA(|m|,r),s)}}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle {\\text{Operating Profit Margin}}={100\\cdot {\\text{Operating Income}} \\over {\\text{Revenue}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{NPV}}=\\sum _{t=0}^{\\infty }{B_{t}-C_{t} \\over {(1+r)^{t}}}}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle {\\frac {B_{t}}{Y_{t}}}-{\\frac {B_{t-1}}{Y_{t-1}}}=(r-g)\\left({\\frac {B_{t-1}}{Y_{t-1}}}\\right)+\\left({\\frac {G_{t}-T_{t}}{Y_{t}}}\\right)}",
+    "count": 4
+},
+{
+    "formula": "NNP at factor cost = GDP at market price - net indirect taxes - depreciation + net factor income from abroad",
+    "count": 20
+},
+{
+    "formula": "{\\displaystyle P_{\\text{x}}={\\frac {E_{\\text{x}}}{R_{\\text{x}}[1-T]}}}",
+    "count": 14
+},
+{
+    "formula": "Payback Period = (p - n)/p + ny",
+    "count": 1
+},
+{
+    "formula": "Net profit (NP) = throughput – operating expense ",
+    "count": 13
+},
+{
+    "formula": "PL=TR-TC=(C+V)*X-(TFC+V*C)=C*X-TFC=TCM-TFC",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle {\\text{Break-even(in Sales)}}={\\frac {\\text{Fixed Costs}}{C/P}}.}",
+    "count": 7
+},
+{
+    "formula": "Profit Margin = (Sale price − Cost) / Sale price",
+    "count": 1
+},
+{
+    "formula": "Target Income Sales (in Sales proceeds)=(Fixed Costs+Target Income)/Contribution Margin Ratio",
+    "count": 2
+},
+{
+    "formula": "Added Value = The selling price of a product - the cost of bought-in materials and components",
+    "count": 28
+},
+{
+    "formula": " Goods available for sale =Opening inventories + Purchases + Freight (in)",
+    "count": 18
+},
+{
+    "formula": "{\\displaystyle {\\text{Inventory Turnover}}={\\frac {\\text{Net Sales}}{\\text{Average Inventory at Selling Price}}}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {\\text{Inventory Turnover}}={\\frac {\\text{Cost of Goods Sold}}{\\text{Average Inventory at Cost}}}}",
+    "count": 7
+},
+{
+    "formula": "Profit = Sale price − Cost",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\pi =pq-(F_{n}+wq)\\,}",
+    "count": 8
+},
+{
+    "formula": "Amount of Annual Interest= Debt x Interest Rate",
+    "count": 14
+},
+{
+    "formula": "capital = debt / (debt + equity)",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Consumer leverage ratio}}={{\\mbox{Total household debt}} \\over {\\mbox{Disposable personal income}}}}",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle Duration\\ gap=duration\\ of\\ earning\\ assets\\ -\\ duration\\ of\\ paying\\ liabilities\\ \\times \\ {\\frac {paying\\ liabilities}{earning\\ assets}}}",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle {\\text{Financial leverage}}={\\frac {\\text{Total Debt}}{\\text{Shareholders' Equity}}}}",
+    "count": 26
+},
+{
+    "formula": "{\\displaystyle {\\text{Coupon rate}}={\\frac {C}{F}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Price}}={\\frac {I}{y}}}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle {\\text{Current yield}}={\\frac {\\text{Annual interest payment}}{\\text{Current price}}}.}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle P_{\\text{float}}=N\\sum _{j=1}^{n_{2}}r_{j}d_{j}v_{j}}",
+    "count": 12
+},
+{
+    "formula": "retrospective premium = (converted loss + basic premium) × tax multiplier. ",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle ILF(L)={\\dfrac {Expected\\ indemnity\\ cost(L)+ALAE(L)+ULAE(L)+RL(L)}{Expected\\ indemnity\\ cost(B)+ALAE(B)+ULAE(B)+RL(B)}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle BoP=CA+KA\\,}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{Payout}}={\\text{Adjusted Loss}}\\times {\\frac {\\text{Sum Insured}}{\\text{Current Value}}}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {\\text{Net Cash Flows from Operating Activities}}={\\text{ Net Income}}+{\\text{Rule Items}}}",
+    "count": 34
+},
+{
+    "formula": "{\\displaystyle {\\begin{alignedat}{2}{\\text{Net Cash Flows from Financing Activities}}=&\\left[{\\text{Dividends received from }}3^{\\rm {rd}}{\\text{ parties}}\\right]\\\\&-\\left[{\\text{Dividends paid to }}3^{\\rm {rd}}{\\text{ parties}}\\right]\\\\&-[{\\text{Dividends paid to NCI but not}}\\\\&{\\text{intracompany dividend payments}}]\\end{alignedat}}}",
+    "count": 23
+},
+{
+    "formula": "{\\displaystyle R_{t}=A_{t}-L_{t}}",
+    "count": 7
+},
+{
+    "formula": "[Monthly Lease Payment] x [Term (months)] = [Total amount out of pocket]",
+    "count": 23
+},
+{
+    "formula": "AFN = Projected increase in assets – spontaneous increase in liabilities – any increase in retained earnings",
+    "count": 17
+},
+{
+    "formula": "EVA = (RONA – required minimum return) × net investments",
+    "count": 6
+},
+{
+    "formula": "EV = PVFP + ANAV",
+    "count": 40
+},
+{
+    "formula": "2. Net Asset Turnover Ratio = Revenue / (Total Assets - Current Liabilities)",
+    "count": 21
+},
+{
+    "formula": "ROIC = NOPAT / Average Invested Capital",
+    "count": 4
+},
+{
+    "formula": "Investment turns (IT) = throughput / investment ",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle TRIN={\\frac {advancing\\ issues/declining\\ issues}{advancing\\ volume/declining\\ volume}}}",
+    "count": 6
+},
+{
+    "formula": "Sales revenue = price (of product) × quantity sold",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle \\mathrm {ROE} ={\\frac {\\mbox{Net income}}{\\mbox{Sales}}}\\times {\\frac {\\mbox{Sales}}{\\mbox{Total Assets}}}\\times {\\frac {\\mbox{Total Assets}}{\\mbox{Shareholder Equity}}}}",
+    "count": 24
+},
+{
+    "formula": "sum of equity changes across time = owner's investment (Capital above) + Revenues – Expenses",
+    "count": 29
+},
+{
+    "formula": "(Pretax provision for post-tax outlays) = (Post-tax outlays)",
+    "count": 17
+},
+{
+    "formula": "Discretionary income = gross income – taxes – all compelled payments (bills)",
+    "count": 15
+},
+{
+    "formula": "(Pretax provision for post-tax outlays) = (Noncash expenses) + ((post-tax outlays) − (noncash expenses)) / (1 − (income tax rate))",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle V=(HH\\cdot TR\\cdot TU)+(HH\\cdot TR\\cdot MR\\cdot RR\\cdot RU)}",
+    "count": 3
+},
+{
+    "formula": "Combined Profit Volume Ratio = Combined Contribution/Combined Sale * 100",
+    "count": 3
+},
+{
+    "formula": "Shrinkage Percent = Shrinkage/Total Sales x 100 ",
+    "count": 2
+},
+{
+    "formula": "Price per Statistical Unit  = Total Price of a Bundle of SKUs Comprising a Statistical Unit ",
+    "count": 2
+},
+{
+    "formula": "Total Revenue = C*X+V*X",
+    "count": 11
+},
+{
+    "formula": "Total Revenue = Price X Quantity of goods",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle CCI={\\frac {1}{0.015}}{\\frac {p_{t}-SMA(p_{t})}{MD(p_{t})}}} ,",
+    "count": 6
+},
+{
+    "formula": " Shrinkage = Booked Inventory − Physical Counted Inventory",
+    "count": 2
+},
+{
+    "formula": "Impact of prices = position sensitivity × move in the variable in question",
+    "count": 10
+},
+{
+    "formula": "CAPM = (The Risk Free Rate) + (The Beta of the Security) * (The Market Risk Premium)",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle i_{\\$}=i_{c}+{\\frac {{\\Delta }E_{t}(S_{t+k})}{S_{t}}}}",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle (1+i_{d})={\\frac {F}{S}}(1+i_{f})}",
+    "count": 17
+},
+{
+    "formula": "{\\displaystyle CB={\\sqrt {\\frac {i*nCF}{(2*r)}}}}",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle DCF={\\frac {CF_{1}}{(1+r)^{1}}}+{\\frac {CF_{2}}{(1+r)^{2}}}+\\dotsb +{\\frac {CF_{n}}{(1+r)^{n}}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle (1+i_{\\$})={\\frac {E_{t}(S_{t+k})}{S_{t}}}(1+i_{c})}",
+    "count": 10
+},
+{
+    "formula": "Hot money (approx) = Change in foreign exchange reserves - Net exports - Net foreign direct investment",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle 1+i=(1+r)\\times (1+\\pi ^{e})}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle SUE={\\frac {EPS-Forecast}{\\sigma (EPS-Forecast)}}}",
+    "count": 14
+},
+{
+    "formula": "{\\displaystyle V^{*}=\\mathrm {EPS} \\times (8.5+2g)}",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle {\\text{Justified P/S}}={\\text{Profit Margin}}\\times {\\text{Payout}}\\times {\\frac {1+g}{r-g}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle D_{t}=D_{t-1}+\\rho \\cdot \\left(\\tau \\cdot E_{t}-D_{t-1}\\right)}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle V^{*}={\\cfrac {\\mathrm {EPS} \\times (8.5+2g)\\times 4.4}{Y}}}",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle {\\text{PEG Ratio}}\\,=\\,{\\frac {\\text{Price/Earnings}}{\\text{Annual EPS Growth}}}}",
+    "count": 4
+},
+{
+    "formula": "PMV=N*P",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle PPV=\\mu -t\\sigma }",
+    "count": 1
+},
+{
+    "formula": "PI = NI + Earned but Unpaid Income + Earned but Unpaid Income",
+    "count": 14
+},
+{
+    "formula": "Capital Cost Tax Factor = 1-（td）/(i+d);",
+    "count": 29
+},
+{
+    "formula": "{\\displaystyle \\,Z =e^{-\\delta T}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle \\,Z =(1+i)^{-T} }",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle C+I+G+(X-M)=S(P)+C+T-TR}",
+    "count": 4
+},
+{
+    "formula": "Internal balance = Consumption [determined by disposable income] + Investment + Government Spending + Current Account (determined by the real exchange rate, disposable income of home country and disposable income of the foreign country).",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle S_{P}=Y-T+TR-C}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle S_{P}=Y_{d}-C}",
+    "count": 1
+},
+{
+    "formula": "Budget Deficit = Saving + Trade Deficit – Investment.",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle \\,Z=v^{T} }",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle S_{P}+S_{G}=I+(X-M)}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle (S_{P}-I)+S_{G}=(X-M)}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle Y_{d}=C+S_{P}}",
+    "count": 1
+},
+{
+    "formula": "Taxable income = income - tax exemption",
+    "count": 7
+},
+{
+    "formula": "Tax Shield = Net Interest Expense X Marginal Tax Rate",
+    "count": 14
+},
+{
+    "formula": "Current Account = (Private Saving – Investment) + (Taxes levied – Government Expenditure)",
+    "count": 4
+},
+{
+    "formula": "Final retail price = supply and demand + opportunity cost",
+    "count": 14
+},
+{
+    "formula": "PL=(C+V)*X-(TFC+V*C)",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle Ec={\\frac {\\Delta C/C}{\\Delta q/q}}.}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle X={\\frac {\\text{TFC}}{P-V}}}",
+    "count": 3
+},
+{
+    "formula": "Break Even Point: value of Quantity of goods where Average Revenue = Average Total Cost",
+    "count": 3
+},
+{
+    "formula": "P =  M×(W/Z) + UMC.",
+    "count": 5
+},
+{
+    "formula": "windfall gain/ton = market price/ton – production cost/ton",
+    "count": 8
+},
+{
+    "formula": "TCE ratio = TCE / (total assets)",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle {\\text{P/S Ratio}}={\\frac {\\text{Market Capitalization}}{\\text{Revenue}}}={\\frac {\\text{Per-Share Stock Price}}{\\text{Per-Share Revenue}}}}",
+    "count": 28
+},
+{
+    "formula": "{\\displaystyle {\\text{ROE}}={\\frac {\\text{Net Income}}{\\text{Average Total Equity}}}}",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle P=\\left({\\frac {E*G}{K^{2}}}\\right)+\\left({\\frac {D}{K}}\\right)}",
+    "count": 39
+},
+{
+    "formula": "return on investment = (revenue − cost of goods sold) / cost of goods sold",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Profitability index}}={\\frac {\\text{PV of future cash flows}}{\\text{Initial investment}}}}",
+    "count": 3
+},
+{
+    "formula": "MRP L = MR × MP L ",
+    "count": 8
+},
+{
+    "formula": "Marginal Revenue =The rate of change in Total Revenue with Quantity",
+    "count": 9
+},
+{
+    "formula": "P = M×(average money wage)/(production labor productivity) + UMC ",
+    "count": 4
+},
+{
+    "formula": "Profit = (P-ATC)*Q",
+    "count": 3
+},
+{
+    "formula": "Marginal Revenue = Change in Total Revenue / Change in Quantity of goods",
+    "count": 8
+},
+{
+    "formula": "MRP L = (∆TR/∆Q) × (∆Q/∆L)  ",
+    "count": 5
+},
+{
+    "formula": "MR = ∆TR/∆Q",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle P_{i}=wl_{i}+(1+r)wl_{A}a_{i}}",
+    "count": 7
+},
+{
+    "formula": "Average Product = Quantity of goods / Variable Factor",
+    "count": 2
+},
+{
+    "formula": "MRP L= ∆TR/∆L",
+    "count": 8
+},
+{
+    "formula": "A = P + hL",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle P_{i}=wl_{i}+k_{A}a_{i},(i=B,D)}",
+    "count": 9
+},
+{
+    "formula": "TA Productivity = throughput / operating expense ",
+    "count": 5
+},
+{
+    "formula": "output= initial inventory + input - final inventory",
+    "count": 2
+},
+{
+    "formula": "GDP at factor cost = value of the final goods and services produced within the domestic territory of a country during one year by all production units inclusive of depreciation.",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle P_{i}=wl_{i}+(h+r)P_{A}a_{i}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle E_{i}=l_{i}+l_{A}a_{i}} ,",
+    "count": 6
+},
+{
+    "formula": "P  = M × (total production employment cost)/(quantity of output) + UMC.",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle NX=Y-(C+I+G)}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle NX=Y-{\\text{Domestic demand}}}",
+    "count": 1
+},
+{
+    "formula": "GNP = Ig + C + G + Xn",
+    "count": 4
+},
+{
+    "formula": "Target Income Sales (in Units)=(Fixed Costs+Target Income)/Unit Contribution",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle TCI={\\frac {{\\textrm {FXEarnings}}-{\\textrm {FXExpenses}}}{{\\textrm {FXEarnings}}+{\\textrm {FXExpenses}}}}}",
+    "count": 12
+},
+{
+    "formula": "Margin of safety = (current output - breakeven output)",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle RSI=100\\cdot {\\frac {{\\text{SMMA}}(U,n)}{{\\text{SMMA}}(U,n)+{\\text{SMMA}}(D,n)}}}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle \\operatorname {Buffett\\ indicator} ={\\frac {\\operatorname {Wilshire\\ 5000\\ capitalization} }{\\operatorname {US\\ GDP} }}\\times 100}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle RSI=100-{100 \\over {1+RS}}}",
+    "count": 5
+},
+{
+    "formula": "-DI = 100 times the smoothed moving average of (-DM) divided by average true range",
+    "count": 1
+},
+{
+    "formula": "[Finance charges per year] / [Financed amount] = Annual Lease Rate",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle \\mathrm {NOA} ={\\mbox{operating assets}}-{\\mbox{operating liabilities}}={\\mbox{invested capital}}}",
+    "count": 13
+},
+{
+    "formula": "{\\displaystyle DPO={\\dfrac {ending~A/P}{Purchase/day}}}",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle {\\text{DOL}}={\\frac {\\text{Total Contribution}}{\\text{Operating Income}}}={\\frac {\\text{Total Contribution}}{{\\text{Total Contribution}}-{\\text{Fixed Costs}}}}={\\frac {({\\text{P}}-{\\text{V}})\\cdot {\\text{X}}}{({\\text{P}}-{\\text{V}})\\cdot {\\text{X}}-{\\text{FC}}}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{DOL}}={\\frac {\\%{\\text{ change in Operating Income}}}{\\%{\\text{ change in Sales}}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\rm {{Shares\\ authorized}={\\rm {{Shares\\ issued}+{\\rm {Shares\\ unissued}}}}}}} ",
+    "count": 19
+},
+{
+    "formula": "Adjustment Factor = Index specific constant \"Z\" / (Number of shares of the stock * Adjusted stock market value before rebalancing)",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle P_{0}} = {\\displaystyle {\\frac {D_{1}}{k-g}}}",
+    "count": 22
+},
+{
+    "formula": "{\\displaystyle {\\text{Post-money valuation}}={\\text{New investment}}\\,\\cdot \\,{\\frac {\\text{Total post investment shares outstanding}}{\\text{Shares issued for new investment}}}}",
+    "count": 32
+},
+{
+    "formula": "{\\displaystyle {\\text{Quick Ratio}}={\\frac {{\\text{Current assets}}-{\\text{Inventory}}-{\\text{Prepaid expenses}}}{\\text{Current Liabilities}}}}",
+    "count": 8
+},
+{
+    "formula": "Carrying value = Historic cost + Change in value",
+    "count": 19
+},
+{
+    "formula": "{\\displaystyle \\mathrm {DCF} ={\\frac {\\mbox{FCF}}{\\mbox{WACC}}}-{\\mbox{BVD}}}",
+    "count": 19
+},
+{
+    "formula": "Interest expense = Principal x Interest Rate x Time period ",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {\\text{Yield to maturity(YTM)}}={\\sqrt[{\\text{Time period}}]{\\dfrac {\\text{Face value}}{\\text{Present value}}}}-1}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle UnearnedInterest(u)={\\frac {f\\times k(k+1)}{n(n+1)}}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle V_{L}=V_{U}+T_{C}D\\,}",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle P=D\\cdot \\sum _{i=1}^{\\infty }\\left({\\frac {1+g_{i}}{1+k}}\\right)^{i}} .",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle P_{t}=E_{t}[M_{t+1}(P_{t+1}+D_{t+1})]}",
+    "count": 11
+},
+{
+    "formula": "{\\displaystyle R={\\frac {P_{end}-P_{start}}{P_{start}}}}",
+    "count": 9
+},
+{
+    "formula": "Residual income = Net Income − Equity Charge.",
+    "count": 6
+},
+{
+    "formula": "Value of Unlevered Assets=Take Present Value (PV) of FCFs discounted by Return on Assets % (also Return on Unlevered Equity %) + PV of terminal value ",
+    "count": 28
+},
+{
+    "formula": "Aggregate Income = E + B + R + C + I + ( G - S )",
+    "count": 15
+},
+{
+    "formula": "{\\displaystyle \\pi ={\\frac {NS-NF}{S}}}",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle \\pi =N\\left(1-{\\frac {F}{S}}\\right)}",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle S-I=EX-IM}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle NX=S-I}",
+    "count": 2
+},
+{
+    "formula": "I n = k ×Δ Y",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle S=I+NX}",
+    "count": 2
+},
+{
+    "formula": "Increase in Official Reserve Account = Current Account Surplus + Capital Account Surplus ",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle \\mathrm {ROA} ={\\frac {\\mbox{Net Income}}{\\mbox{Average Total Assets}}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{ROA}}={\\frac {\\text{Net income}}{\\text{Average Total Assets}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle FCF_{t}=OCB_{t}-I_{t}\\,}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle \\mathrm {FCF} ={\\mbox{NOPAT}}-{\\mbox{Change in NOA}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle PIRR=\\mu _{IRR}-t\\sigma _{IRR}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle PIRR=\\mu _{IRR}-\\left({\\frac {\\mu ^{*}-r_{0}}{\\sigma ^{*}}}\\right)\\sigma _{IRR}}",
+    "count": 1
+},
+{
+    "formula": "Close = (real open + real high + real low + real close) / 4",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle CLV={(close-low)-(high-close) \\over high-low}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{Typical Price}}={\\frac {H+L+C}{3}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\textstyle P=P_{0}{\\frac {(1-{\\text{initial margin requirement}})}{(1-{\\text{maintenance margin requirement}})}}}",
+    "count": 7
+},
+{
+    "formula": "BC = (H + L) / 2",
+    "count": 1
+},
+{
+    "formula": "Market conversion premium per share = market conversion price - current market price",
+    "count": 4
+},
+{
+    "formula": "typical price=(high+low+close)/3}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {(close_{today}-low_{Ndays})-(close_{today}-high_{Ndays})=high_{Ndays}-low_{Ndays}}}",
+    "count": 1
+},
+{
+    "formula": "UpMove = today's high − yesterday's high",
+    "count": 1
+},
+{
+    "formula": "Average Revenue = TR / Quantity of goods",
+    "count": 7
+},
+{
+    "formula": "Total Revenue = (C+V)*X",
+    "count": 10
+},
+{
+    "formula": "Total Revenue = ((P - V)+ V) * X",
+    "count": 6
+},
+{
+    "formula": "Total Cost = (AVC + AFC) X Quantity of goods",
+    "count": 1
+},
+{
+    "formula": "Total Cost = Average Total Cost (ATC) x Quantity (Q)",
+    "count": 1
+},
+{
+    "formula": "Average Total Cost (ATC) = Total Cost/Q",
+    "count": 1
+},
+{
+    "formula": "Average cost (AC) = TFC/q + TVC/q",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle SRATC\\ or\\ SRAC={\\frac {P_{K}\\cdot K}{Q}}+{\\frac {P_{L}\\cdot L}{Q}}={\\frac {P_{K}\\cdot P_{K}}{A}}+{\\frac {P_{L}\\cdot P_{L}}{A}}} ,",
+    "count": 1
+},
+{
+    "formula": "Total Revenue = P * X",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle TRevPAR=TotalRevenue/RoomsAvailable\\,}",
+    "count": 2
+},
+{
+    "formula": "Average Price per Unit  = Revenue / Units Sold ",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle EAC={\\frac {-NPV}{A_{t,r}}}} ",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle {\\text{ALE}}={\\text{ARO}}\\times {\\text{SLE}}}",
+    "count": 6
+},
+{
+    "formula": "Expected Loss = Expected Exposure X Expected Default X Expected Severity",
+    "count": 12
+},
+{
+    "formula": "Return on net assets = (plant revenue) − costs / ( net assets )",
+    "count": 9
+},
+{
+    "formula": "{\\displaystyle CCA=tdUCC-{\\frac {1}{2}}td\\left(a-b-c\\right)}",
+    "count": 17
+},
+{
+    "formula": "Cash at end of period = Cash at beginning of period + Changes in cash during period   ",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {\\mbox{cash-on-cash return}}={\\frac {\\mbox{annual before-tax cash flow}}{\\mbox{total cash invested}}}}",
+    "count": 6
+},
+{
+    "formula": "PL=TR-TC",
+    "count": 6
+},
+{
+    "formula": "PL=TCM-TFC",
+    "count": 1
+},
+{
+    "formula": "ROE = (Profit margin)×(Asset turnover)×(Equity multiplier) ",
+    "count": 8
+},
+{
+    "formula": "Total Cost = Fixed Costs (FC) + Variable Costs (VC) ",
+    "count": 5
+},
+{
+    "formula": "Vmp = (Actual unit cost - Standard unit cost) * Actual Quantity Purchased ",
+    "count": 2
+},
+{
+    "formula": " Retained earnings at the end of period = Retained earnings at the beginning of period + Net Income for the period- Dividends",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle W=c+NL+SL}",
+    "count": 6
+},
+{
+    "formula": "call option = current stock price − strike price (call option)",
+    "count": 18
+},
+{
+    "formula": "Time value = option premium − intrinsic value",
+    "count": 19
+},
+{
+    "formula": "{\\displaystyle NDP=GDP-Depreciation}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{Net eXports}}={\\text{eXports}}-{\\text{iMports}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle V=P{\\frac {\\ln(1+kD)}{k}},\\,}",
+    "count": 3
+},
+{
+    "formula": "windfall gain = windfall gain/ton x number of tons allocated x 90% (to reflect 90% confidence in the geology of the reserve)",
+    "count": 5
+},
+{
+    "formula": "[Total amount out of pocket] - [Financed amount] = [Total finance charge]",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\left({\\frac {B_{t}}{Y_{t}}}-{\\frac {B_{t-1}}{Y_{t-1}}}\\right)+\\left({\\frac {M_{t}}{Y_{t}}}-{\\frac {M_{t-1}}{Y_{t-1}}}\\right)=(r-g)\\left({\\frac {B_{t-1}}{Y_{t-1}}}\\right)+\\left({\\frac {G_{t}-T_{t}}{Y_{t}}}\\right)}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{Incremental Capital Output Ratio (ICOR)}}={\\frac {\\Delta K}{\\Delta Y}}={\\frac {\\frac {\\Delta K}{Y}}{\\frac {\\Delta Y}{Y}}}={\\frac {\\frac {I}{Y}}{\\frac {\\Delta Y}{Y}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle {\\text{ROC}}={\\frac {{\\text{Close}}-{\\text{Close (Past)}}}{\\text{Close (Past)}}}\\times 100}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{MICEX10}}={\\frac {k}{10}}\\cdot \\sum \\limits _{i=1}^{10}\\left({\\frac {P_{i}}{P_{i}^{0}}}\\right)}",
+    "count": 1
+},
+{
+    "formula": "Down time = time the building/ location/ service/ machine is out of operation due to any reason (including planned down time such as maintenance or 'out of season').",
+    "count": 2
+},
+{
+    "formula": "AR = IR × CR × DR ",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle EquityRiskPremium=ReturnontheMarket(Rm)-RiskFreeRate(Rf)}",
+    "count": 7
+},
+{
+    "formula": "Discount rate = (risk free rate) + beta * (equity market risk premium)",
+    "count": 5
+},
+{
+    "formula": "rate of depreciation = home inflation rate – foreign inflation rate,",
+    "count": 5
+},
+{
+    "formula": "Basis = Futures price of contract − Spot price of hedged asset.",
+    "count": 16
+},
+{
+    "formula": "Effective exchange rate of currency j = Normalized exchange rate of currency j against the US dollar/Value of the benchmark currency basket against US dollar",
+    "count": 1
+},
+{
+    "formula": "home inflation rate = foreign inflation rate + rate of depreciation.",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle F_{t}=E_{t}(S_{t+k})}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle F=S\\left({\\frac {1+r_{d}\\cdot T}{1+r_{f}\\cdot T}}\\right),}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle F=Se^{rT}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle D_{e}=-{\\frac {P\\left({y+\\delta y}\\right)-P\\left({y-\\delta y}\\right)}{2\\cdot P\\left(y\\right)\\cdot \\delta y}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle F=S_{0}e^{(r-q)T}-\\sum _{i=1}^{N}D_{i}e^{(r-q)(T-t_{i})}\\,}",
+    "count": 8
+},
+{
+    "formula": "MDE = unhedged exposure/total portfolio value.",
+    "count": 12
+},
+{
+    "formula": "{\\displaystyle \\operatorname {Call} x=\\mathrm {ATM} +0.5\\operatorname {RR} x+\\operatorname {Fly} x}",
+    "count": 3
+},
+{
+    "formula": "Maximum gain = difference in strike prices - net debit, realized when both options are in-the-money.",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle F=Se^{(r+s-c)t}\\,}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle P_{0}=S_{0}-Ke^{-rT}}",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle \\operatorname {Put} x=\\mathrm {ATM} -0.5\\operatorname {RR} x+\\operatorname {Fly} x}",
+    "count": 3
+},
+{
+    "formula": "DEPI = (Depreciationt-1/ (PP&Et-1 + Depreciationt-1)) / (Depreciationt / (PP&Et + Depreciationt))",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{Economic depreciation}}={\\frac {K_{c}}{\\left(1+K_{c}\\right)^{n}-1}}}",
+    "count": 5
+},
+{
+    "formula": "Income elasticity = Wealth elasticity × rate of investment return.",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle P_{\\text{IRS}}=P_{\\text{fixed}}-P_{\\text{float}}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle TAB_{factor}\\,=\\,{1 \\over [1-{t \\over n}*({1 \\over k}-{1 \\over (k*(1+k)^{n})})]}}",
+    "count": 2
+},
+{
+    "formula": "Total Cost of Equity (TCOE) = risk-free rate + total beta * equity risk premium = risk-free rate + beta * equity risk premium + size premium + company-specific risk premium",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle {\\frac {E(R_{i})-R_{f}}{\\beta _{i}}}=E(R_{M})-R_{f}.}",
+    "count": 6
+},
+{
+    "formula": "Cost of equity = Risk free rate of return + Beta × (market rate of return – risk free rate of return)",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle DII={\\dfrac {average~inventory}{COGS/Days}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle UR=a+b({\\text{ern}}-u)+e}",
+    "count": 5
+},
+{
+    "formula": "value of position today = value of position in one period ÷ (1 + r) ",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Unit margin}}(\\$)={\\text{Selling price per unit}}(\\$)-{\\text{Cost per unit}}(\\$)}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Margin}}={\\frac {{\\text{Unit margin}}(\\$)}{{\\text{Selling price per unit}}(\\$)}}\\times 100\\%}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\frac {\\text{Debt}}{\\text{Assets}}}={\\frac {\\text{Debt}}{{\\text{Debt}}+{\\text{Equity}}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle IR={\\frac {E[R_{p}-R_{b}]}{\\sigma }}={\\frac {\\alpha }{\\omega }}={\\frac {E[R_{p}-R_{b}]}{\\sqrt {\\mathrm {var} [R_{p}-R_{b}]}}}} ,",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\delta r_{yield}=\\sum \\limits _{i=1}^{m}{KRD_{i}\\cdot \\delta y_{i}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\delta r_{yield}^{steepening}=\\sum \\limits _{i=1}^{m}{KRD_{i}\\cdot \\delta y_{i}^{steepening}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle r_{yield}=y\\cdot \\delta t}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\mathbb {E} \\left(r_{j}\\right)=r_{f}+\\beta _{j1}RP_{1}+\\beta _{j2}RP_{2}+\\cdots +\\beta _{jn}RP_{n}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\mathrm {SCL} :R_{i,t}-R_{f}=\\alpha _{i}+\\beta _{i}\\,(R_{M,t}-R_{f})+\\varepsilon _{i,t}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle r_{c}={\\frac {r_{m}}{(1-t)}}}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle K_{D}=(R_{f}+{\\text{credit risk rate}})(1-T)} ,",
+    "count": 14
+},
+{
+    "formula": "dividend yield = earnings yield · dividend payout ratio.",
+    "count": 10
+},
+{
+    "formula": "{\\displaystyle P_{0}(1+i)^{n}={\\frac {x[(1+i)^{n}-1]}{i}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle c={r \\over {1-(1+r)^{-N}}}P_{0}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle c={\\frac {rP(1+r)^{N}}{(1+r)^{N}-1}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle P\\,=\\,A\\cdot {\\frac {1-\\left({1+r}\\right)^{-n}}{r}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle A\\,=\\,P\\cdot {\\frac {r(1+r)^{n}}{(1+r)^{n}-1}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle S-A=R(1+\\mathrm {APR} /100)^{-t_{N}}+\\sum _{k=1}^{N}A_{k}(1+\\mathrm {APR} /100)^{-t_{k}}} ",
+    "count": 2
+},
+{
+    "formula": "Impact of prices = (trade value using today's prices) - (trade value using prior day's prices)",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{true price }}(\\$)={\\text{cost }}(\\$)\\cdot {\\dfrac {{\\text{consumption }}(\\$)+{\\text{depreciation }}(\\$)}{{\\text{credit }}(\\$)+{\\text{production }}(\\$)}}}",
+    "count": 2
+},
+{
+    "formula": "GDP at market price = value of output in the economy - intermediate consumption",
+    "count": 2
+},
+{
+    "formula": "Proportion of change=Index point change ÷ Previous period index level ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle p_{i}=\\sum _{j=1}^{M}{\\left(p_{ij}/{\\rm {PPP}}_{j}\\right){\\frac {q_{ij}}{\\sum _{j=1}^{M}q_{ij}}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P={\\frac {\\sum (p_{c,t_{n}}\\cdot q_{c})}{\\sum (p_{c,t_{0}}\\cdot q_{c})}}}",
+    "count": 1
+},
+{
+    "formula": "Impact of prices = option delta * price move",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle I_{t}=K_{t}-K_{t-1}\\,}",
+    "count": 1
+},
+{
+    "formula": "Value of firm ={\\displaystyle \\sum _{t=1}^{n}{\\frac {FCFF_{t}}{(1+WACC_{t})^{t}}}+{\\frac {\\left[{\\frac {FCFF_{n+1}}{(WACC_{n+1}-g_{n+1})}}\\right]}{(1+WACC_{n})^{n}}}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle X=C+B}",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle {PoolFactor}={OutstandingPrincipalBalance \\over OriginalPrincipalBalance}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle D_{t}=D_{t-1}+\\rho \\cdot \\left(D_{t}^{*}-D_{t-1}\\right)}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{Inventory Turn}}={\\frac {\\text{Number of Units Sold (Over a given period)}}{\\text{Average Number of Units (For the period)}}}}",
+    "count": 2
+},
+{
+    "formula": "SGI = Salest / Salest-1",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{Average Inventory}}={\\frac {{\\text{Beginning inventory}}+{\\text{Ending inventory}}}{\\text{2}}}}",
+    "count": 2
+},
+{
+    "formula": "(G – T) = (S – I) – NX",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle Y_{d}=Y-T+TR}",
+    "count": 2
+},
+{
+    "formula": "the amount of the tax deduction = {\\displaystyle \\mathbf {P} \\mathbf {B} \\times \\left({\\frac {MR-PBR}{MR}}\\right)}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle E_{s}=R_{f}+\\beta _{s}(R_{m}-R_{f})}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{NSFR}}={\\frac {\\mbox{Available amount of stable funding}}{\\mbox{Required amount of stable funding }}}>100\\%}",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle INDEXA_{i}={{\\text{Securities}}+{\\text{loans issued by country i in major currencies}} \\over {\\text{Securities}}+{\\text{loans issued by country i}}}}",
+    "count": 6
+},
+{
+    "formula": "Payout ratio = dividends per share/free cash flow per share × 100",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle i_{n}=i_{r}+p_{e}+r_{p}+l_{p}\\,\\!}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle IRR=\\left({\\frac {\\text{InvoicePrice}}{\\text{PurchasePriceOfBond}}}-1\\right)\\left({\\frac {\\text{dayBase}}{\\text{daysToDelivery}}}\\right)} ",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle r=i-\\pi _{e}.}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle LQ={\\frac {e_{i}/e}{E_{i}/E}}}",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle {Single-\\ loss\\ expectancy\\ (SLE)}={Asset\\ value\\ (AV)\\ }\\times {\\ Exposure\\ factor\\ (EF)}}",
+    "count": 8
+},
+{
+    "formula": "{\\displaystyle SR={\\frac {CompoundROR}{ABS(Avg.AnnualDD-10\\%)}}}",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle R_{2}={\\frac {C-B}{B}}}",
+    "count": 3
+},
+{
+    "formula": "Retention Ratio  = Retained Earnings / Net Income",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle \\mathrm {Receivable\\ Turnover\\ Ratio} ={\\mathrm {Net\\ receivable\\ sales} \\over \\mathrm {Average\\ net\\ receivables} }}",
+    "count": 1
+},
+{
+    "formula": "Normal profit = Revenues – Total costs",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle P_{0}=(F_{0}-K)e^{-rT}}",
+    "count": 4
+},
+{
+    "formula": "MRT=[P(public)/P(else)]",
+    "count": 3
+},
+{
+    "formula": "MRT=MC(public)/MC(else)",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle F=Se^{(r+y-q-u)T}}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle \\sum _{i=1}^{n}{\\text{MRS}}_{i}={\\text{MRT}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\qquad \\qquad Y_{t}=A_{t}*(N_{t},K_{t},G_{t})}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle r={\\frac {p_{F}}{{\\tilde {p}}_{P}}}-1,}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle Equivalent\\ compound\\ interest\\ rate=({\\sqrt[{t}]{\\frac {R}{L}}}-1)\\times 100}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle Equivalent\\ compound\\ interest\\ rate=({\\sqrt[{12t}]{\\frac {R}{L}}}-1)\\times 1200}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle \\sum _{i=1}^{M}C_{i}(1+\\mathrm {APR} /100)^{-t_{i}}=\\sum _{j=1}^{N}D_{j}(1+\\mathrm {APR} /100)^{-s_{j}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\begin{aligned}{\\mbox{Desired real policy interest rate}}&={\\mbox{equilibrium real interest rate}}\\\\&+a_{\\pi }\\times {\\mbox{difference from the inflation target}}\\\\&+a_{y}\\times {\\mbox{output gap}}\\\\\\end{aligned}}}",
+    "count": 1
+},
+{
+    "formula": "EMI = [P x R x (1+R)^N]/[(1+R)^N-1]",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{WACC}}={\\frac {D}{D+E}}K_{d}+{\\frac {E}{D+E}}K_{e}}",
+    "count": 3
+},
+{
+    "formula": "labor force = U + E",
+    "count": 4
+},
+{
+    "formula": "rate of employment = E / LFpop",
+    "count": 5
+},
+{
+    "formula": "call option = strike price − current stock price (put option)",
+    "count": 5
+},
+{
+    "formula": "{\\displaystyle CumulativeEarnedInterest(n)=f\\times {\\frac {n(2k-n+1)}{k(k+1)}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle EarnedInterest(n)=f\\times {\\frac {2(k-n+1)}{k(k+1)}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle A=G\\cdot \\left[{\\frac {1}{i}}-{\\frac {n}{(1+i)^{n}-1}}\\right]}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle A={\\frac {P\\times i}{1-(1+i)^{-n}}}}",
+    "count": 3
+},
+{
+    "formula": "Profit Maximizing Condition: Marginal Revenue = Marginal Cost",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{SGR}}={\\frac {\\mathrm {pm} \\cdot (1-d)\\cdot (1+L)}{T-(\\mathrm {pm} \\cdot (1-d)\\cdot (1+L))}}}",
+    "count": 5
+},
+{
+    "formula": "EVA = ( r − c ) × capital ",
+    "count": 3
+},
+{
+    "formula": "Closing BalanceCash = Inflow - Cash Outflow + Opening Balance ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\frac {D_{1}}{r-g}}=P_{0}} is rearranged to give {\\displaystyle {\\frac {D_{1}}{P_{0}}}+g=r}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\mbox{TED spread}}={{\\mbox{3-month LIBOR rate}}-{\\mbox{3-month T-bill interest rate}}}}",
+    "count": 1
+},
+{
+    "formula": "Swap Spread = Yield to Maturity of Swap – Yield to Maturity of Treasury Bond",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle P_{\\text{fixed}}=NR\\sum _{i=1}^{n_{1}}d_{i}v_{i}}",
+    "count": 3
+},
+{
+    "formula": "Deleveraged FRN = long pure FRN + short (1 - leverage factor) x swap",
+    "count": 7
+},
+{
+    "formula": "{\\displaystyle \\sum _{t=1}^{n}MAX(N{\\frac {FX_{t}}{FX_{0}}}r_{1t}-r_{2t}(N-1),0)}",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle dr_{t}=a(b-r_{t})\\,dt+\\sigma {\\sqrt {r_{t}}}\\,dW_{t}}",
+    "count": 1
+},
+{
+    "formula": "Leveraged FRN = long pure FRN + long (leverage factor - 1) x swap + long (leverage factor) x floor",
+    "count": 6
+},
+{
+    "formula": "Loss = TC – TR (if positive)",
+    "count": 1
+},
+{
+    "formula": "C=rK+wL",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle rK+wL=C\\,}",
+    "count": 2
+},
+{
+    "formula": "Y = C + I + G",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle STC=P_{K}\\cdot K+P_{L}\\cdot L} ,",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle p_{i} =l_{A}a_{i}+l_{W}l_{i}+s_{i}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P={\\frac {D(1+G)}{R_{\\text{f}}+RP-G}}}",
+    "count": 6
+},
+{
+    "formula": "{\\displaystyle P=D\\times {\\frac {1+g}{k-g}}} .",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\text{Pre-money valuation}}={\\text{Post-money valuation}}-{\\text{Investment amount}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Throughput accounting Ratio}}={\\text{Return per factory hour}}/{\\text{Cost per factory hour}}} ",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle C={\\frac {P_{0}rT}{1-e^{-rT}}}}",
+    "count": 2
+},
+{
+    "formula": "Payback Period = Amount to be Invested/Estimated Annual Net Cash Flow.",
+    "count": 1
+},
+{
+    "formula": "GDP = consumption + investment + government spending + ( exports − imports ) .",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle ICER={\\frac {(C_{1}-C_{0})}{(E_{1}-E_{0})}}} ,",
+    "count": 4
+},
+{
+    "formula": "Gross value added = gross value of output – value of intermediate consumption.",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{Profit Margin}}={100\\cdot {\\text{Profit}} \\over {\\text{Revenue}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P =D\\cdot {\\frac {1+g}{k-g}}} .",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle V_{U}=V_{L}\\,}",
+    "count": 2
+},
+{
+    "formula": "payoff of a variance swap={\\displaystyle N_{\\operatorname {var} }(\\sigma _{\\text{realised}}^{2}-\\sigma _{\\text{strike}}^{2})}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle TotalValue=p/e+s/e}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle m={\\frac {1}{R}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle M_{1}={\\mathit {MB}}\\times m\\,} ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle M=\\quad \\left\\lbrack {\\frac {1+{\\frac {C}{D}}}{{\\frac {C}{D}}+{\\frac {R}{D}}}}\\right\\rbrack B}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle m={\\frac {1+{\\frac {C}{D}}}{{\\frac {C}{D}}+R}}} ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle m={\\frac {(1+c)}{(c+R)}}} ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P_{A}=wl_{A}}",
+    "count": 1
+},
+{
+    "formula": " participation rate = LF / LFpop",
+    "count": 2
+},
+{
+    "formula": "MP L = ∆Q/∆L ",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle (NX)=(S-I)+(T-G)}",
+    "count": 1
+},
+{
+    "formula": "whereas Cash Flow = NOI − (Debt service)",
+    "count": 1
+},
+{
+    "formula": "Vmp = (Actual Quantity Purchased * Actual Unit Cost) - (Actual Quantity Purchased * Standard Unit Cost) .",
+    "count": 1
+},
+{
+    "formula": "Value of warrants = {\\displaystyle P_{0}-\\left(\\sum _{t=1}^{T}{\\frac {C}{(1+r)^{t}}}\\right)-{\\frac {F}{(1+r)^{T}}}.}",
+    "count": 3
+},
+{
+    "formula": "Maximum loss = net debit, realized when both options expire worthless.",
+    "count": 4
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Envy ratio}}={{\\mbox{Investment by investors / Percent of equity}} \\over {\\mbox{Investment by managers / Percent of equity}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P=F\\cdot (1+i)^{-n}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle P=G\\cdot {\\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{PV}}={\\text{FV}}\\cdot e^{-rt}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle DPV={\\frac {FV}{(1+r)^{n}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\Delta L}/{\\Delta Q}} {\\displaystyle =1/MP_{L}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle MC=w/MP_{L}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle k=1/MPW }",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle k=1/[MPS+MRT+MPM]}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle FV(A)\\,=\\,A\\cdot {\\frac {\\left(1+i\\right)^{n}-1}{i}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle FV(A)\\,=\\,A\\cdot n(1+i)^{n-1}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle FV(A)\\,=\\,A\\cdot {\\frac {\\left(1+i\\right)^{n}-\\left(1+g\\right)^{n}}{i-g}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle FV_{\\mathrm {annuity} }={(1+r)^{n}-1 \\over r}\\cdot \\mathrm {(payment\\ amount)} }",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle PV(A)\\,=\\,{A \\over (i-g)}\\left[1-\\left({1+g \\over 1+i}\\right)^{n}\\right]}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle s_{{\\overline {n}}|i}=(1+i)^{n}\\times a_{{\\overline {n}}|i}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle PV(A)\\,=\\,{A\\times n \\over 1+i}}",
+    "count": 1
+},
+{
+    "formula": "Saleability = nProfits/nTrades - 1/(1+aveProfit/aveLoss)",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle k={\\frac {P_{0}r}{M_{a}}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle k={\\frac {M_{\\min }}{M_{a}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle c=P/N}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle F=A\\cdot {\\frac {(1+i)^{n}-1}{i}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle c={\\frac {rP}{1-{\\frac {1}{(1+r)^{n}}}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P=L\\cdot {\\frac {c\\,(1+c)^{n}}{(1+c)^{n}-1}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{PV}}(i,n,R)=R\\times a_{{\\overline {n}}|i}.}",
+    "count": 2
+},
+{
+    "formula": "\"value of decision situation with perfect information while paying VoC\" = \"value of current decision situation\".",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{Number of Units}}={\\frac {\\text{Total Fixed Costs}}{\\text{Unit Contribution}}}}",
+    "count": 2
+},
+{
+    "formula": "PnL = Value today - Value from Prior Day",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle P_{t}=ME_{t}[P_{t+1}]} .",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Minority discount}}={\\mbox{1 – }}\\left({1 \\over {\\mbox{1 + Control premium}}}\\right)}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle B(t,T)=e^{-r(T-t)}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle (1+i_{lt})^{n}=(1+i_{st}^{{\\text{year }}1})(1+i_{st}^{{\\text{year }}2})\\cdots (1+i_{st}^{{\\text{year }}n}),}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\mbox{Yield Gap}}={\\frac {\\mbox{Yield Ratio of Equity}}{\\mbox{Yield Ratio of Bond}}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\mathrm {DOL} ={\\frac {\\mathrm {EBIT\\;+\\;Fixed\\;Costs} }{\\mathrm {EBIT} }}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle W=c+v+s}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle VP_{n}=C_{c}+C_{f}+V+S} ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle VP_{n}=} Gross Output",
+    "count": 1
+},
+{
+    "formula": "r' = (surplus-value)/( capital to be invested for the next period of production in order to remain competitive).",
+    "count": 1
+},
+{
+    "formula": "r = ( surplus value )/( capital invested).",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle MFI=100\\times {positive\\ money\\ flow \\over positive\\ moneyflow+negative\\ money\\ flow}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle MFI=100-{100 \\over 1+money\\ ratio}}",
+    "count": 1
+},
+{
+    "formula": "Purchases not completed = purchases initiated - purchases completed",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle bp=close-\\min(low,prev\\,close)}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\mathrm {(Total)\\ Dependency\\ ratio} ={\\frac {(\\mathrm {number\\ of\\ people\\ aged\\ 0\\ to\\ 14} )+(\\mathrm {number\\ of\\ people\\ aged\\ 65\\ and\\ over)} }{\\mathrm {number\\ of\\ people\\ aged\\ 15\\ to\\ 64} }}\\times 100}",
+    "count": 1
+},
+{
+    "formula": "Utilization rate = the percentage of time employees spend generating revenue",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle APC={\\frac {C}{Y}}}",
+    "count": 1
+},
+{
+    "formula": "GDP (PPP) = GDP per capita (PPP) x population size",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle APC={\\frac {C_{a}}{Y}}+c}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle GOPPAR=GrossOperatingProfit/RoomsAvailable\\,}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\frac {C}{P}}={\\frac {\\text{Total Contribution Margin}}{\\text{Total Revenue}}}}",
+    "count": 1
+},
+{
+    "formula": "Cart Conversion Rate = ( Number of Completed Purchases / Number of Shopping Carts Opened) X 100",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\mathrm {Aged\\ dependency\\ ratio} ={\\frac {\\mathrm {number\\ of\\ people\\ aged\\ 65\\ and\\ over} }{\\mathrm {number\\ of\\ people\\ aged\\ 15\\ to\\ 64} }}\\times 100}",
+    "count": 1
+},
+{
+    "formula": "Project success rate = the percentage of projects delivered on time and under budget",
+    "count": 1
+},
+{
+    "formula": "Cart Abandonment Rate = 1 - Cart Conversion Rate",
+    "count": 1
+},
+{
+    "formula": "APC=1-APS. ",
+    "count": 1
+},
+{
+    "formula": "Abandonment rate = Not completed / Customer Initiation",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\mathrm {Child\\ dependency\\ ratio} ={\\frac {\\mathrm {number\\ of\\ people\\ aged\\ 0\\ to\\ 14} }{\\mathrm {number\\ of\\ people\\ aged\\ 15\\ to\\ 64} }}\\times 100}",
+    "count": 1
+},
+{
+    "formula": "algebraic sum of inflows = sinks − sources",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle S_{G}=T-G-TR}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle \\tau ={\\frac {1-{\\bar {g}}}{1-{\\bar {g}}+{\\bar {\\zeta }}^{u}+{\\bar {\\zeta }}^{c}(\\alpha -1)}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle e ={\\frac {i}{1-i}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{WAL}}=\\sum _{i=1}^{n}{\\frac {P_{i}}{P}}t_{i},}",
+    "count": 1
+},
+{
+    "formula": "ERV=P(1+T)^n",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle E(Q_{t})=\\delta +Q_{t-4}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle HPR_{n}\\ =\\ {\\frac {Income+P_{n+1}-P_{n}}{P_{n}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{Quick Ratio (Acid Test)}}={\\frac {\\text{Liquid Assets}}{\\text{Quick Liabilities}}}}",
+    "count": 3
+},
+{
+    "formula": "{\\displaystyle B_{n}={\\big (}1+r{\\big )}B_{n-1}-p,}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle C=M_{a}T}",
+    "count": 1
+},
+{
+    "formula": "real interest rate=The revenue is in form of interest rate. Nominal interest rate - inflation ",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle e={\\frac {p\\times i}{p-(p\\times i)}}}",
+    "count": 1
+},
+{
+    "formula": "Monthly tax=(taxable income * tax rate) - quick deduction",
+    "count": 2
+},
+{
+    "formula": "Omega = Nominal Duration x (Rho2 of an American option / Rho2 of a European option).",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle ADline=today's\\ advancing\\ stocks-today's\\ declining\\ stocks+yesterday's\\ AD\\ line\\ value}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle bey_{CP}=\\left({\\frac {P_{f}-P_{0}}{P_{0}}}\\right).{\\frac {365}{t}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle dy_{CP}=\\left({\\frac {P_{f}-P_{0}}{P_{f}}}\\right).{\\frac {360}{t}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\mathrm {BF} =L+\\mathrm {ELR} \\cdot \\mathrm {Exposure} \\cdot (1-w)}",
+    "count": 1
+},
+{
+    "formula": "\"gross\" forced saving ratio = shortage effect/savings rate",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{R}}=({\\text{probability of the accident occurring}})\\times ({\\text{expected loss in case of the accident}})}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle F_{t}=E_{t}(S_{t+1})+P_{t}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle Risk\\ premium=E(r)-r_{f}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\ddot {s}}_{{\\overline {n|}}i}={\\frac {(1+i)^{n}-1}{d}},}",
+    "count": 1
+},
+{
+    "formula": "DSO ratio = accounts receivable / average sales per day, ",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle {\\text{ROA}}={\\frac {\\text{Net Income}}{\\text{Revenue}}}\\times {\\frac {\\text{Revenue}}{\\text{Average Total Assets}}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle MVA=V-K}",
+    "count": 1
+},
+{
+    "formula": "PL=C*X-TFC",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{throughput cost accounting ratio}}={\\frac {\\text{return}}{\\text{factory hours}}}} ",
+    "count": 1
+},
+{
+    "formula": "OEE = availability x performance x quality",
+    "count": 1
+},
+{
+    "formula": "Cycle time ratio (CTR) = standard cycle time / real cycle time",
+    "count": 1
+},
+{
+    "formula": "Total revenue = sales price × number of unit",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle g={Plowback\\ ratio}\\times {return\\ on\\ equity}} .",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle OSIN2_{i}=max(INDEXA_{i},OSIN3_{i})}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle INDEXB_{i}=1-{\\frac {\\text{Securities in currency i (regardless of the nationality of the issuer)}}{\\text{Securities issued by country i}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle S_{a}={\\frac {E[R_{a}-R_{b}]}{\\sigma _{a}}}}",
+    "count": 2
+},
+{
+    "formula": "{\\displaystyle PS+\\Delta B=PI,}",
+    "count": 1
+},
+{
+    "formula": "Total Variable Cost = Variable cost per unit X Quantity of goods",
+    "count": 1
+},
+{
+    "formula": "Total costs = fixed costs + (unit variable cost × number of units) ",
+    "count": 1
+},
+{
+    "formula": "(Government sector balance) = (Private sector balance) – External sector balance",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle Y=C+I+G+(X-M)} ( 1 )",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\sum _{i=1}^{n}{\\text{MB}}_{i}={\\text{MC}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle 1=l_{B}+(1+r)l_{A}a_{B}} ,",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle {\\text{DOL}}={\\frac {\\text{Contribution Margin Ratio}}{\\text{Operating Margin}}}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle \\operatorname {RevPAR} ={\\frac {\\operatorname {RoomsRevenue} }{\\operatorname {RoomsAvailable} }}\\,}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle r=r_{f}+\\beta \\left[\\mathbb {E} (r_{M})-r_{f}\\right]}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle r_{j}=a_{j}+\\beta _{j1}f_{1}+\\beta _{j2}f_{2}+\\cdots +\\beta _{jn}f_{n}+\\epsilon _{j}}",
+    "count": 1
+},
+{
+    "formula": "{\\displaystyle E[R]=\\sum _{i=1}^{n}R_{i}P_{i}}",
+    "count": 1
+},
+{
+    "formula": "Capital Cost (asset price) = Net Operating Income/ Capitalization Rate",
+    "count": 1
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FinQA Viewer</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#doc_id").on("keyup", function(event) {
+				if (event.key === "Enter") {
+					$("#submit").click();
+				}
+			});
+
+			$("#submit").click(function() {
+				var doc_id = $("#doc_id").val();
+				$.getJSON("raw_data/finQA_viewer.json", function(data) {
+					if (doc_id in data) {
+						var doc = data[doc_id];
+						var table_html = "";
+						if (doc.table.length > 0) {
+							table_html += "<table><thead><tr>";
+							for (var i = 0; i < doc.table[0].length; i++) {
+								table_html += "<th>" + doc.table[0][i] + "</th>";
+							}
+							table_html += "</tr></thead><tbody>";
+							for (var i = 1; i < doc.table.length; i++) {
+								table_html += "<tr>";
+								for (var j = 0; j < doc.table[i].length; j++) {
+									table_html += "<td>" + doc.table[i][j] + "</td>";
+								}
+								table_html += "</tr>";
+							}
+							table_html += "</tbody></table>";
+						}
+						$("#filename").html(doc.filename);
+						$("#pre_text").html(doc.pre_text.join("<br>"));
+						$("#table").html(table_html);
+						$("#post_text").html(doc.post_text.join("<br>"));
+						$("#question").html(doc.question.join("<br>"));
+						$("#answer").html("");
+						for (var i = 0; i < doc.question.length; i++) {
+							var answer = doc.answer && doc.answer[i] ? doc.answer[i] : "";
+							$("#answer").append("<div>" + doc.question[i] + " <span style='float:right'>" + answer + "</span></div>");
+						}
+					} else {
+						alert("Invalid document ID!");
+					}
+				});
+			});
+		});
+	</script>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			font-size: 12px;
+		}
+		th, td {
+			padding: 5px;
+		}
+		h2, h3, p {
+			font-size: 14px;
+		}
+		#answer div {
+			margin-bottom: 5px;
+			overflow: hidden;
+		}
+		#answer span {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<p>Enter a document ID:</p>
+	<input type="text" id="doc_id">
+	<button id="submit">Submit</button>
+	<hr>
+	<h2 id="filename"></h2>
+	<h3>Pre-Text:</h3>
+	<p id="pre_text"></p>
+	<h3>Table:</h3>
+	<div id="table"></div>
+	<h3>Post-Text:</h3>
+	<p id="post_text"></p>
+	<h3>Answers:</h3>
+	<p id="answer"></p>
+</body>
+</html>
